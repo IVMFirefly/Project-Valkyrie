@@ -1,0 +1,77 @@
+﻿capital = 12
+
+oob = "LAT_1936"
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+	early_submarine = 1
+}
+
+set_research_slots = 3
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+	    conservatism = {
+			popularity = 25
+		}
+
+		fascism = {
+			popularity = 10
+		}
+
+		liberalism = {
+			popularity = 15
+		}
+		
+		communism = {
+			popularity = 2
+		}
+		
+		socialism = {
+			popularity = 5
+		}
+		
+		reactionarism = {
+			popularity = 10
+		}
+		autocratism = {
+			popularity = 33
+		}
+	}
+	
+	ruling_party = autocratism
+	last_election = "1931.10.3"
+	election_frequency = 108
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Karlis Ulmanis"
+	desc = "POLITICS_KARLIS_ULMANIS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = autocratism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustavs Celmiņš"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		#
+	}
+}

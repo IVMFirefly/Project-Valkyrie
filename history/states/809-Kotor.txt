@@ -1,0 +1,27 @@
+
+state={
+	id = 809
+	name = "Kotor" 
+	manpower = 50000
+
+	state_category = pastoral
+
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+			6889 = {
+				naval_base = 1
+			}
+		}
+		#add_claim_by = ITA #added by focus
+		add_core_of = CRO
+		add_core_of = MNT
+		add_claim_by = AUS
+	}
+
+	provinces={
+		6889
+	}
+}

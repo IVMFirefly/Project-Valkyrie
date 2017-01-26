@@ -1,0 +1,23 @@
+
+state={
+	id=783
+	name="Tuzla"
+	manpower = 500000
+	
+	
+	state_category = rural
+
+	history={
+		owner = BOS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = BOS
+		add_claim_by = AUS
+	}
+
+	provinces={
+		606 6799 11741 
+	}
+}

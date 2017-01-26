@@ -1,0 +1,30 @@
+state={
+	id=70
+	name="Bratislava"
+	manpower = 730500
+	
+	state_category = town
+	
+	resources={
+		tungsten=2
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			9692 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			air_base = 3
+		}
+		add_core_of = HUN
+		add_core_of = SLO
+
+	}
+	
+	provinces={
+		541 9539 9692  
+	}
+}
