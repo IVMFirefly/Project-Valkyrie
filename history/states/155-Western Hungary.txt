@@ -1,7 +1,7 @@
 
 state={
 	id=155
-	name="STATE_155"
+	name="South Transdanubia"
 	resources={
 		oil=1.000
 	}

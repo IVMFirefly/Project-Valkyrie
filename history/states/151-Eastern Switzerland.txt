@@ -1,7 +1,7 @@
 
 state={
 	id=151
-	name="STATE_151"
+	name="Zurich"
 	resources={
 		aluminium=24.000
 	}

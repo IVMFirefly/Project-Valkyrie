@@ -1,7 +1,7 @@
 
 state={
 	id=815
-	name="District of Columbia"
+	name="Washington D.C."
 
 	history={
 		owner = USA

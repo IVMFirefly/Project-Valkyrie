@@ -1,6 +1,7 @@
 ideas = {
 
 	popularity = {
+	law = yes
 		very_low_popularity = {
 			available = { always = no }
 			removal_cost = -1
