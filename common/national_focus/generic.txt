@@ -1578,7 +1578,7 @@ focus_tree = {
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		x = 12
+		x = 11
 		y = 6
 		cost = 10
 
@@ -1588,6 +1588,25 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}	
+	
+	focus = {
+		id = mechanized_agriculture
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = extra_tech_slot }
+		available = {
+			
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 13
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
 
 	focus = {
 		id = secret_weapons

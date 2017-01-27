@@ -20,6 +20,14 @@ ICC = {
     color = rgb { 5 150 200 }
 	color_ui = rgb { 138 155 116 }
 }
+CAL = {
+    color = rgb { 255 225 0 }
+	color_ui = rgb { 138 155 116 }
+}
+TEX = {
+    color = rgb { 0 40 104 }
+	color_ui = rgb { 138 155 116 }
+}
 
 
 

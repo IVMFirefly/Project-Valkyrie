@@ -59,6 +59,7 @@ give_guarantee = PAR
 give_guarantee = ARG
 give_guarantee = URG
 
+
 set_convoys = 400
 set_national_unity = 0.6
 
@@ -66,7 +67,7 @@ set_politics = {
 
 	parties = {
 	    conservatism = {
-			popularity = 45
+			popularity = 40
 		}
 
 		fascism = {
@@ -74,7 +75,7 @@ set_politics = {
 		}
 
 		liberalism = {
-			popularity = 35
+			popularity = 30
 		}
 		
 		communism = {
@@ -86,7 +87,7 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 5
+			popularity = 15
 		}
 		autocratism = {
 			popularity = 0
@@ -94,13 +95,11 @@ set_politics = {
 	}
 	
 	ruling_party = conservatism
-	last_election = "1932.11.8"
-	election_frequency = 48
+	last_election = "1934.6.3"
+	election_frequency = 36
 	elections_allowed = yes
 }
 
-# DIPLOMACY
-puppet = PHI
 
 create_country_leader = {
 	name = "Franklin Delano Roosevelt"
@@ -109,16 +108,7 @@ create_country_leader = {
 	expire = "1947.1.1"
 	ideology = liberalism
 	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Herbert C. Hoover"
-	desc = "HOOVER_DESC"
-	picture = "Hoover.dds"
-	expire = "1947.1.1"
-	ideology = conservatism
-	traits = {
+		dislikes_germany
 	}
 }
 

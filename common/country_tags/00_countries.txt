@@ -3,6 +3,8 @@ GAL = "countries/Galicia-Lodomeria.txt"
 BOS = "countries/Bosnia.txt"
 SIC = "countries/Sichuan.txt"
 ICC = "countries/Imperial_Cities_Company.txt"
+CAL = "countries/California.txt"
+TEX = "countries/Texas.txt"
 
 
 

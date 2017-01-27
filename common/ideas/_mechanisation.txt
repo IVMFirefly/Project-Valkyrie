@@ -16,7 +16,7 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-			picture = gfx/interface/ideas/idea_generic_agrarian_society
+			picture = generic_manpower_bonus
 		}
 		
 		very_low_mechanisation = {
@@ -31,7 +31,7 @@ ideas = {
 			}
 					
 			cancel_if_invalid = no
-			picture = gfx/interface/ideas/idea_generic_agrarian_society
+			picture = generic_manpower_bonus
 		}
 		
 		low_mechanisation = {
@@ -46,7 +46,7 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-			picture = gfx/interface/ideas/idea_generic_agrarian_society
+			picture = generic_manpower_bonus
 		}
 		
 		average_mechanisation = {
@@ -61,7 +61,7 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-			picture = gfx/interface/ideas/idea_generic_agrarian_society
+			picture = generic_manpower_bonus
 		}
 		
 		high_mechanisation = {
@@ -78,7 +78,7 @@ ideas = {
 			
 			default = yes
 			cancel_if_invalid = no
-			picture = gfx/interface/ideas/idea_generic_agrarian_society
+			picture = generic_manpower_bonus
 
 		}
 		
@@ -94,7 +94,7 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-			picture = gfx/interface/ideas/idea_generic_agrarian_society
+			picture = generic_manpower_bonus
 		}
 		
 		excellent_mechanisation = {
@@ -108,7 +108,7 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-			picture = picture = gfx/interface/ideas/idea_generic_agrarian_society
+			picture = generic_manpower_bonus
 		}
 	}
 }
