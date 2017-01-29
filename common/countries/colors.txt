@@ -1,36 +1,4 @@
 #reload countrycolors
-
-BOH = {
-	color = rgb { 220 215 90 }
-	color_ui = rgb { 138 155 116 }
-}
-GAL = {
-	color = rgb { 50 175 200 }
-	color_ui = rgb { 138 155 116 }
-}
-BOS = {
-    color = rgb { 50 140 50 }
-	color_ui = rgb { 138 155 116 }
-}
-SIC = {
-    color = rgb { 150 75 75 }
-	color_ui = rgb { 138 155 116 }
-}
-ICC = {
-    color = rgb { 5 150 200 }
-	color_ui = rgb { 138 155 116 }
-}
-CAL = {
-    color = rgb { 255 225 0 }
-	color_ui = rgb { 138 155 116 }
-}
-TEX = {
-    color = rgb { 0 40 104 }
-	color_ui = rgb { 138 155 116 }
-}
-
-
-
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -546,3 +514,223 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
+##########################################################################################################################################################################################################################
+BOH = {
+	color = rgb { 220 215 90 }
+	color_ui = rgb { 138 155 116 }
+}
+GAL = {
+	color = rgb { 50 175 200 }
+	color_ui = rgb { 138 155 116 }
+}
+BOS = {
+    color = rgb { 50 140 50 }
+	color_ui = rgb { 138 155 116 }
+}
+SIC = {
+    color = rgb { 150 75 75 }
+	color_ui = rgb { 138 155 116 }
+}
+ICC = {
+    color = rgb { 5 150 200 }
+	color_ui = rgb { 138 155 116 }
+}
+CAL = {
+    color = rgb { 255 225 0 }
+	color_ui = rgb { 138 155 116 }
+}
+TEX = {
+    color = rgb { 0 40 104 }
+	color_ui = rgb { 138 155 116 }
+} 
+FLO = {
+    color = rgb { 205 0 0 }
+	color_ui = rgb { 138 155 116 }
+}
+NEY = {
+    color = rgb { 50 50 255 }
+	color_ui = rgb { 138 155 116 }
+}
+PEN = {
+    color = rgb { 255 255 50 }
+	color_ui = rgb { 138 155 116 }
+}
+GRG = {
+    color = rgb { 205 0 100 }
+	color_ui = rgb { 138 155 116 }
+}
+MIC = {
+    color = rgb { 0 205 100 }
+	color_ui = rgb { 138 155 116 }
+}
+SCA = {
+    color = rgb { 220 220 220 }
+	color_ui = rgb { 138 155 116 }
+}
+NCA = {
+    color = rgb { 0 130 255 }
+	color_ui = rgb { 138 155 116 }
+}
+ILL = {
+    color = rgb { 255 180 100 }
+	color_ui = rgb { 138 155 116 }
+}
+WIS = {
+    color = rgb { 0 150 150 }
+	color_ui = rgb { 138 155 116 }
+}
+NCA = {
+    color = rgb { 150 200 255 }
+	color_ui = rgb { 138 155 116 }
+}
+OHI = {
+    color = rgb { 255 100 100 }
+	color_ui = rgb { 138 155 116 }
+}
+ALA = {
+    color = rgb { 255 200 230 }
+	color_ui = rgb { 138 155 116 }
+}
+MAI = {
+    color = rgb { 0 50 100 }
+	color_ui = rgb { 138 155 116 }
+}
+MIS = {
+    color = rgb { 240 240 240 }
+	color_ui = rgb { 138 155 116 }
+}
+MIO = {
+    color = rgb { 0 130 240 }
+	color_ui = rgb { 138 155 116 }
+}
+VIR = {
+    color = rgb { 255 65 0 }
+	color_ui = rgb { 138 155 116 }
+}
+MIN = {
+    color = rgb { 150 0 150 }
+	color_ui = rgb { 138 155 116 }
+}
+LOU = {
+    color = rgb { 210 240 40 }
+	color_ui = rgb { 138 155 116 }
+}
+IOW = {
+    color = rgb { 150 150 150 }
+	color_ui = rgb { 138 155 116 }
+}
+IDA = {
+    color = rgb { 30 210 30 }
+	color_ui = rgb { 138 155 116 }
+}
+TEN = {
+    color = rgb { 250 170 45 }
+	color_ui = rgb { 138 155 116 }
+}
+KET = {
+    color = rgb { 235 230 65 }
+	color_ui = rgb { 138 155 116 }
+}
+WAS = {
+    color = rgb { 45 110 45 }
+	color_ui = rgb { 138 155 116 }
+}
+ORE = {
+    color = rgb { 105 70 215 }
+	color_ui = rgb { 138 155 116 }
+}
+NEV = {
+    color = rgb { 100 100 100 }
+	color_ui = rgb { 138 155 116 }
+}
+NEM = {
+    color = rgb { 225 240 30 }
+	color_ui = rgb { 138 155 116 }
+}
+ARI = {
+    color = rgb { 220 165 55 }
+	color_ui = rgb { 138 155 116 }
+}
+VER = {
+    color = rgb { 50 170 55 }
+	color_ui = rgb { 138 155 116 }
+}
+NEH = {
+    color = rgb { 250 190 55 }
+	color_ui = rgb { 138 155 116 }
+}
+MAS = {
+    color = rgb { 190 50 25 }
+	color_ui = rgb { 138 155 116 }
+}
+RHI = {
+    color = rgb { 220 220 45 }
+	color_ui = rgb { 138 155 116 }
+}
+UTA = {
+    color = rgb { 50 50 50 }
+	color_ui = rgb { 138 155 116 }
+}
+MNN = {
+    color = rgb { 105 110 200 }
+	color_ui = rgb { 138 155 116 }
+}
+WYO = {
+    color = rgb { 170 135 85 }
+	color_ui = rgb { 138 155 116 }
+}
+SDA = {
+    color = rgb { 75 180 165 }
+	color_ui = rgb { 138 155 116 }
+}
+NDA = {
+    color = rgb { 230 215 105 }
+	color_ui = rgb { 138 155 116 }
+}
+COR = {
+    color = rgb { 200 95 80 }
+	color_ui = rgb { 138 155 116 }
+}
+OKL = {
+    color = rgb { 105 170 90 }
+	color_ui = rgb { 138 155 116 }
+}
+
+KAN = {
+    color = rgb { 230 190 35 }
+	color_ui = rgb { 138 155 116 }
+}
+NEB = {
+    color = rgb { 60 65 140 }
+	color_ui = rgb { 138 155 116 }
+}
+ARK = {
+    color = rgb { 225 45 45 }
+	color_ui = rgb { 138 155 116 }
+}
+INN = {
+    color = rgb { 40 125 215 }
+	color_ui = rgb { 138 155 116 }
+}
+NJE = {
+    color = rgb { 235 240 160 }
+	color_ui = rgb { 138 155 116 }
+}
+WVI = {
+    color = rgb { 85 75 245 }
+	color_ui = rgb { 138 155 116 }
+}
+MAR = {
+    color = rgb { 200 45 45 }
+	color_ui = rgb { 138 155 116 }
+}
+DEL = {
+    color = rgb { 70 150 205 }
+	color_ui = rgb { 138 155 116 }
+}
+COR = {
+    color = rgb { 35 165 250 }
+	color_ui = rgb { 138 155 116 }
+} #CON causes crash for unknown reason
+
+

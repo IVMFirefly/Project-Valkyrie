@@ -4,7 +4,7 @@ state={
 	name="STATE_362"
 
 	history={
-		owner = USA
+		owner = VIR
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
@@ -17,6 +17,7 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = VIR
 		victory_points = {
 			788 10 
 		}

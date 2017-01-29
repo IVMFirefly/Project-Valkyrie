@@ -1,7 +1,7 @@
 
 state={
 	id=746
-	name="STATE_746"
+	name="North Epirus"
 
 	history={
 		owner = ALB

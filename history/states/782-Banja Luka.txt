@@ -8,6 +8,9 @@ state={
 	state_category = rural
 
 	history={
+                victory_points = {
+			6983 3
+		}
 		owner = BOS
 		buildings = {
 			infrastructure = 5

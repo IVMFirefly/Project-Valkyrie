@@ -1,7 +1,7 @@
 
 state={
 	id=84
-	name="STATE_84"
+	name="South Transylvania"
 	manpower = 1622300
 	resources={
 		steel=4

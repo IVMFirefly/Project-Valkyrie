@@ -4,13 +4,14 @@ state={
 	name="New Hampshire"
 
 	history={
-		owner = USA
+		owner = NEH
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 
 		}
 		add_core_of = USA
+		add_core_of = NEH
 
 	}
 

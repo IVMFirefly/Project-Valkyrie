@@ -4,7 +4,7 @@ state={
 	name="Massachusetts"
 
 	history={
-		owner = USA
+		owner = MAS
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 1
@@ -17,6 +17,7 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = MAS
 		victory_points = {
 			6732 20 
 		}
