@@ -51,6 +51,7 @@ MAR = "countries/Maryland.txt"
 NJE = "countries/New Jersey.txt"
 DEL = "countries/Delaware.txt"
 COT = "countries/Connecticut.txt"
+BUK = "countries/Bukovina.txt"
 
 
 

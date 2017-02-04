@@ -728,9 +728,12 @@ DEL = {
     color = rgb { 70 150 205 }
 	color_ui = rgb { 138 155 116 }
 }
-COR = {
+COT = {
     color = rgb { 35 165 250 }
 	color_ui = rgb { 138 155 116 }
 } #CON causes crash for unknown reason
-
+BUK = {
+    color = rgb { 200 100 0 }
+	color_ui = rgb { 138 155 116 }
+}
 

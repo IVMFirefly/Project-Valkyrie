@@ -19,7 +19,7 @@ state={
 			3882 1 
 		}
 		add_core_of = SER
-		add_claim_by = BUL
+		add_core_of = BUL
 		add_claim_by = GRE
 
 
@@ -31,5 +31,5 @@ state={
 	}
 	manpower=1374200
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category= average
 }
