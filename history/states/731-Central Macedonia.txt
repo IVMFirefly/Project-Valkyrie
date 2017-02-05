@@ -1,7 +1,7 @@
 
 state={
 	id=731
-	name="STATE_731"
+	name="South Macedonia"
 
 	history={
 		owner = GRE
