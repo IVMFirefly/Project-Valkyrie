@@ -712,7 +712,7 @@ INN = {
     color = rgb { 40 125 215 }
 	color_ui = rgb { 138 155 116 }
 }
-NJE = {
+NEJ = {
     color = rgb { 235 240 160 }
 	color_ui = rgb { 138 155 116 }
 }
