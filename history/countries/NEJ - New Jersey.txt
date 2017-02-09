@@ -1,6 +1,6 @@
 ﻿capital = 359
 
-oob = "NEJ_1936"
+oob = "NJE_1936"
 
 set_research_slots = 3
 
