@@ -3,7 +3,7 @@ state={
 	name="STATE_405"
 
 	history={
-		owner = SOV
+		owner = TUK
 		victory_points = {
 			1459 3 
 		}
@@ -14,6 +14,7 @@ state={
 
 		}
 		add_core_of = SOV
+		add_core_of = TUK
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

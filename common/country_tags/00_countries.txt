@@ -52,8 +52,12 @@ NEJ = "countries/New Jersey.txt"
 DEL = "countries/Delaware.txt"
 COT = "countries/Connecticut.txt"
 BUK = "countries/Bukovina.txt"
-
-
+GUI = "countries/Guizhou.txt"
+SHA = "countries/Shaanxi.txt"
+CIR = "countries/Circassia.txt"
+KAZ = "countries/Kazakhstan.txt"
+TUK = "countries/Turkestan.txt"
+RUS = "countries/Russia.txt"
 
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"
@@ -156,7 +160,6 @@ LAO = "countries/Laos.txt"
 MNT = "countries/Montenegro.txt"
 UKR = "countries/Ukraine.txt"
 GEO = "countries/Georgia.txt"
-#KAZ = "countries/Kazakhstan.txt" #For a later time
 AZR = "countries/Azerbaijan.txt"
 ARM = "countries/Armenia.txt"
 BLR = "countries/Belarus.txt"

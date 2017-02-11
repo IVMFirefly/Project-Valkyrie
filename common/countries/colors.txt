@@ -736,4 +736,28 @@ BUK = {
     color = rgb { 200 100 0 }
 	color_ui = rgb { 138 155 116 }
 }
+GUI = {
+    color = rgb { 100 180 235 }
+	color_ui = rgb { 138 155 116 }
+}
+SHA = {
+    color = rgb { 205 205 255 }
+	color_ui = rgb { 138 155 116 }
+}
+CIR = {
+    color = rgb { 35 175 35 }
+	color_ui = rgb { 138 155 116 }
+}
+KAZ = {
+    color = rgb { 30 50 255 }
+	color_ui = rgb { 138 155 116 }
+}
+TUK = {
+    color = rgb { 30 200 80 }
+	color_ui = rgb { 138 155 116 }
+}
+RUS = {
+    color = rgb { 13 125 24 }
+	color_ui = rgb { 138 155 116 }
+}
 
