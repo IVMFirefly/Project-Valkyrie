@@ -1,7 +1,7 @@
 
 state={
-	id=51
-	name="East Rhineland"
+	id= 839
+	name="West Rhineland"
 	resources={
 		steel=27.000
 	}
@@ -15,7 +15,6 @@ state={
 			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 1
-			air_base = 3
 
 		}
 		add_core_of = GER
@@ -31,9 +30,10 @@ state={
 	}
 
 	provinces={
-		529 3512 6469 6570 9482  
+		587 3444 3547 9522   
 	}
 	manpower=3000000
 	buildings_max_level_factor=1.000
 	state_category= city
 }
+
