@@ -29,7 +29,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 35
+			popularity = 20
 		}
 
 		liberalism = {
@@ -37,7 +37,7 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 22
 		}
 		
 		socialism = {
@@ -48,11 +48,11 @@ set_politics = {
 			popularity = 10
 		}
 		autocratism = {
-			popularity = 18
+			popularity = 13
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
