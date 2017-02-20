@@ -15,7 +15,7 @@ set_politics = {
 			popularity = 5
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -24,7 +24,7 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 42
+			popularity = 62
 		}
 		
 		socialism = {
@@ -32,11 +32,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 13
 		}
-		autocratism = {
-			popularity = 23
-		}
+		
 	}
 	
 	ruling_party = communism
@@ -53,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_MAO_ZEDONG_DESC"
 	picture = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		cornered_fox
 	}

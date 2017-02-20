@@ -20,7 +20,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -37,14 +37,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 33
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -55,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = market_liberalism
 	traits = {
 		#
 	}
@@ -66,7 +64,7 @@ create_country_leader = {
 		desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 		expire = "1965.1.1"
-		ideology = autocratism
+		ideology = autocracy
 		traits = {
 			#
 		}

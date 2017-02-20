@@ -36,28 +36,6 @@ set_technology = {
 
 }
 
-#Monroe Doctrine
-give_guarantee = CAN
-give_guarantee = MEX
-give_guarantee = CUB
-give_guarantee = HAI
-give_guarantee = DOM
-give_guarantee = GUA
-give_guarantee = HON
-give_guarantee = ELS
-give_guarantee = NIC
-give_guarantee = COS
-give_guarantee = PAN
-give_guarantee = VEN
-give_guarantee = COL
-give_guarantee = ECU
-give_guarantee = PRU
-give_guarantee = BRA
-give_guarantee = BOL
-give_guarantee = CHL
-give_guarantee = PAR
-give_guarantee = ARG
-give_guarantee = URG
 
 
 set_convoys = 400
@@ -70,7 +48,7 @@ set_politics = {
 			popularity = 40
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -89,9 +67,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
+		
 	}
 	
 	ruling_party = conservatism
@@ -106,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = social_liberalism
 	traits = {
 		dislikes_germany
 	}
@@ -117,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		
 	}
@@ -128,7 +104,7 @@ create_country_leader = {
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		
 	}

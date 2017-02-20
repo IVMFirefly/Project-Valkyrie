@@ -27,7 +27,7 @@ set_politics = {
 			popularity = 30
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -46,9 +46,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
+		
 	}
 	
 	ruling_party = liberalism
@@ -62,7 +60,7 @@ create_country_leader = {
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "Portrait_Czech_Edvard_Benes.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic_conservatism
 	traits = {
 		#
 	}
@@ -73,7 +71,7 @@ create_country_leader = {
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -84,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
 	picture = "Portrait_Czech_Klement_Gottwald.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}

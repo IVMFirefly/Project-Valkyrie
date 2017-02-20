@@ -53,7 +53,7 @@ set_politics = {
 			popularity = 15
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 0
 		}
 
@@ -70,14 +70,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 20
+			popularity = 63
 		}
-		autocratism = {
-			popularity = 43
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -88,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_HAILE_SELASSIE_DESC"
 	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = absolutism
 	traits = {
 		#
 	}
@@ -99,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_YEEBIO_WOLDAI_DESC"
 	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_reformism
 	traits = {
 		#
 	}

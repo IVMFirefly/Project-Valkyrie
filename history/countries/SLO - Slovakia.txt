@@ -28,7 +28,7 @@ set_politics = {
 			popularity = 20
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 35
 		}
 
@@ -45,14 +45,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 28
 		}
-		autocratism = {
-			popularity = 18
-		}
+		
 	}
 	
-	ruling_party = fascism
+	ruling_party = national_integralism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -63,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_JOZEF_TISO_DESC"
 	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}

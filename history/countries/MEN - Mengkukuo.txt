@@ -14,7 +14,7 @@ set_politics = {
 			popularity = 5
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -31,14 +31,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 15
+			popularity = 83
 		}
-		autocratism = {
-			popularity = 68
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -49,7 +47,7 @@ create_country_leader = {
 	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		spirit_of_genghis
 	}

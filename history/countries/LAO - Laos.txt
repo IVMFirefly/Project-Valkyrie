@@ -47,7 +47,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -64,11 +64,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 33
-		}
+		
 	}
 }
 
@@ -77,7 +75,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1953.3.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		
 	}
@@ -88,7 +86,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		
 	}
@@ -99,7 +97,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = authoritarian_conservatism
 	traits = {
 		
 	}

@@ -7,12 +7,12 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_national_integralism_drift_bonus
 			
 			modifier = {
 				unity_factor = -0.05
 				conscription = 0.002
-				fascism_drift = 0.05
+				national_integralism_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -46,7 +46,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_national_integralism_drift_bonus
 			
 			modifier = {
 				unity_factor = -0.1
@@ -84,7 +84,7 @@ ideas = {
 		}
 
 
-		fascism_defeated = {
+		national_integralism_defeated = {
 			removal_cost = -1
 			
 			allowed = {
@@ -169,7 +169,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				fascism_acceptance = -50
+				national_integralism_acceptance = -50
 			}
 		}
 		

@@ -18,7 +18,7 @@ set_politics = {
 			popularity = 5
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -35,11 +35,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 33
 		}
-		autocratism = {
-			popularity = 23
-		}
+		
 	}
 	
 	ruling_party = communism
@@ -53,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}

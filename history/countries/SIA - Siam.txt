@@ -24,7 +24,7 @@ set_politics = {
 			popularity = 10
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 0
 		}
 
@@ -41,14 +41,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 17
+			popularity = 82
 		}
-		autocratism = {
-			popularity = 65
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -59,7 +57,7 @@ create_country_leader = {
 	desc = "POLITICS_PHRAYA_PHAHON_DESC"
 	picture = "Portrait_Siam_Phraya_Phahon.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -70,7 +68,7 @@ create_country_leader = {
 		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 		expire = "1965.1.1"
-		ideology = fascism
+		ideology = national_integralism
 		traits = {
 			#
 		}

@@ -47,7 +47,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -64,14 +64,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 33
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -82,7 +80,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		
 	}
@@ -94,7 +92,7 @@ create_country_leader = {
 	desc = "POLITICS_VD_SAVARKAR_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		
 	}
@@ -105,7 +103,7 @@ create_country_leader = {
 	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		
 	}
@@ -116,7 +114,7 @@ create_country_leader = {
 	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = fabianism
 	traits = {
 		
 	}

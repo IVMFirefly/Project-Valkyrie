@@ -15,7 +15,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -32,14 +32,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 33
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -49,7 +47,7 @@ create_country_leader = {
 	name = "Bashir es Sadawi"
 	desc = ""
 	picture = "gfx/leaders/LBA/Portrait_Arabia_Generic_democratic1.dds"
-	ideology = liberalism
+	ideology = market_liberalism
 	traits = {
 		#
 	}
@@ -59,7 +57,7 @@ create_country_leader = {
 	name = "Ettore Bastico"
 	desc = ""
 	picture = "gfx/leaders/LBA/Portrait_Italy_Guiseppe_Fioravanzo.dds"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -69,7 +67,7 @@ create_country_leader = {
 	name = "Idris Senussi"
 	desc = ""
 	picture = "gfx/leaders/LBA/Portrait_Arabia_Generic_land_3.dds"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -79,7 +77,7 @@ create_country_leader = {
 	name = "Hassan as-Senussi"
 	desc = ""
 	picture = "gfx/leaders/LBA/Portrait_Arabia_Generic_communism1.dds"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}

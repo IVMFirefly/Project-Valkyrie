@@ -22,7 +22,7 @@ set_politics = {
 			popularity = 40
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -41,9 +41,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
+		
 	}
 	
 	ruling_party = conservatism
@@ -57,7 +55,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
 	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = auhtoritarian_conservatism
 	traits = {
 		#
 	}
@@ -68,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_PEDRO_BAGUISA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}

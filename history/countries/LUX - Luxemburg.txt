@@ -19,7 +19,7 @@ set_politics = {
 			popularity = 40
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -38,9 +38,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
+		
 	}
 	
 	ruling_party = conservatism
@@ -55,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_BECH_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic_conservatism
 	traits = {
 		#
 	}

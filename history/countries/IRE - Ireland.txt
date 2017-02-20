@@ -18,7 +18,7 @@ set_politics = {
 			popularity = 40
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -37,9 +37,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
+		
 	}
 	
 	ruling_party = conservatism
@@ -53,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic_conservatism
 	traits = {
 		#
 	}
@@ -64,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_EOIN_ODUFFY_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -75,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_JAMES_LARKIN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -86,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_JAMES_LARKIN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = market_liberalism
 	traits = {
 		#
 	}

@@ -32,7 +32,7 @@ set_politics = {
 			popularity = 30
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -49,11 +49,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 20
+			popularity = 38
 		}
-		autocratism = {
-			popularity = 18
-		}
+		
 	}
 	
 	ruling_party = conservatism
@@ -67,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -78,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
 	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -89,7 +87,7 @@ create_country_leader = {
 	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
 	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -100,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_WINCENTY_WITOS_DESC"
 	picture = "GFX_POL_wincenty_witos"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic_conservatism
 	traits = {
 		#
 	}
@@ -111,7 +109,7 @@ create_country_leader = {
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
 	picture = "GFX_POL_boleslaw_piasecki"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}

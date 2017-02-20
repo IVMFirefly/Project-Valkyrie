@@ -17,7 +17,7 @@ set_politics = {
 			popularity = 40
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 0
 		}
 
@@ -34,11 +34,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 17
+			popularity = 42
 		}
-		autocratism = {
-			popularity = 25
-		}
+		
 	}
 	
 	ruling_party = conservatism
@@ -52,7 +50,7 @@ create_country_leader = {
 	name = "Michael Dows"
 	picture = "Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = authoritarian_conservatism
 	traits = {
 		#
 	}

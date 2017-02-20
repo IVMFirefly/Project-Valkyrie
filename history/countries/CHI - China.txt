@@ -23,7 +23,7 @@ set_politics = {
 			popularity = 15
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -40,14 +40,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 15
+			popularity = 63
 		}
-		autocratism = {
-			popularity = 48
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,7 +56,7 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
 	expire = "1960.1.1"
-	ideology = autocratism
+	ideology = absolutionism
 	traits = {
 		warrior_code
 	}
@@ -69,7 +67,7 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
 	expire = "1960.1.1"
-	ideology = reactionarism
+	ideology = autocracy
 	traits = {
 		warrior_code
 	}
@@ -80,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_MAO_ZEDONG_DESC"
 	picture = "Portrait_China_Mao_Zedong.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		cornered_fox
 	}
@@ -91,7 +89,7 @@ create_country_leader = {
 	desc = "POLITICS_WANG_JINGWEI_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -102,7 +100,7 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_LAN_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = fabianism
 	traits = {
 		#
 	}

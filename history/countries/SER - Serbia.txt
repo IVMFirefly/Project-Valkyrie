@@ -27,7 +27,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -44,11 +44,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 40
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 3
-		}
+		
 	}
 	
 	ruling_party = reactionarism
@@ -64,7 +62,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = authoritarian_conservatism
 	traits = {
 		#
 	}
@@ -75,7 +73,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -86,7 +84,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = reactionarism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -97,7 +95,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}

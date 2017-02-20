@@ -47,7 +47,7 @@ set_politics = {
 			popularity = 1
 		}
 
-		liberalism = {
+		national_integralism = {
 			popularity = 30
 		}
 		
@@ -62,9 +62,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
+		
 	}
 	
 	ruling_party = conservatism

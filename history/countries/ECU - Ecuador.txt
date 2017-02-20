@@ -18,7 +18,7 @@ set_politics = {
 			popularity = 10
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -37,9 +37,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
+	
 	}
 	
 	ruling_party = socialism
@@ -53,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_FEDERICO_PAEZ_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = fabianism
 	traits = {
 		#
 	}

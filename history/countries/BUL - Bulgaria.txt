@@ -26,7 +26,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -43,11 +43,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 40
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 3
-		}
+		
 	}
 	
 	ruling_party = reactionarism
@@ -63,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_BORIS_III_DESC"
 	picture = "Portrait_Bulgaria_Boris_III.dds"
 	expire = "1965.1.1"
-	ideology = reactionarism
+	ideology = absolutism
 	traits = {
 		#
 	}
@@ -74,7 +72,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGI_DIMITROV_DESC"
 	picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -85,7 +83,7 @@ create_country_leader = {
 	desc = "POLITICS_ZIVCO_TOPALOVIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = democratic_socialism
 	traits = {
 		#
 	}
@@ -96,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_HRISTO_LUKOV_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}

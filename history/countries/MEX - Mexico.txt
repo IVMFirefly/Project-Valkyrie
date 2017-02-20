@@ -21,7 +21,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -38,14 +38,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 33
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = yes
@@ -58,7 +56,7 @@ create_country_leader = {
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
 	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}

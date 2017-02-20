@@ -27,7 +27,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -44,10 +44,7 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 40
-		}
-		autocratism = {
-			popularity = 3
+			popularity = 43
 		}
 	}
 	
@@ -62,7 +59,7 @@ create_country_leader = {
 	desc = "ANTE_PAVELIC_DESC"
 	picture = "Portrait_Croatia_Ante_Pavelic.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}

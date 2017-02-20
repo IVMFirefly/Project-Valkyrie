@@ -22,7 +22,7 @@ set_politics = {
 			popularity = 30
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 0
 		}
 
@@ -39,11 +39,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 5
+			popularity = 6
 		}
-		autocratism = {
-			popularity = 1
-		}
+		
 	}
 	
 	ruling_party = liberalism
@@ -64,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Federal_council.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic_conservatism
 	traits = {
 		#
 	}
@@ -74,7 +72,7 @@ create_country_leader = {
 	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Federal_council.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = social_liberalism
 	traits = {
 		#
 	}
@@ -85,7 +83,7 @@ create_country_leader = {
 	desc = "POLITICS_ERNST_BEGUIN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = authoritarian_conservatism
 	traits = {
 		#
 	}
@@ -96,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_MAX_LEO_KELLER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -107,7 +105,7 @@ create_country_leader = {
 	desc = "POLITICS_FRITZ_PLATTEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}

@@ -244,9 +244,9 @@ leader_traits = {
 	
 	fascist_demagogue = {
 		random = no
-		# Boosts Fascism
+		# Boosts national_idealism
 		sprite = 13
-		fascism_drift = 0.1
+		national_idealism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0

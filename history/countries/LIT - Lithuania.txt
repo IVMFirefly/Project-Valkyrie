@@ -23,7 +23,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -40,14 +40,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 33
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
@@ -58,7 +56,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTANAS_SMETONA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -69,7 +67,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -80,7 +78,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}

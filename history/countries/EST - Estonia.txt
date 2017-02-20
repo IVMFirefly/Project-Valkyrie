@@ -24,7 +24,7 @@ set_politics = {
 			popularity = 10
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -41,14 +41,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 15
+			popularity = 45
 		}
-		autocratism = {
-			popularity = 30
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,7 +58,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}

@@ -32,7 +32,7 @@ set_politics = {
 			popularity = 40
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -49,11 +49,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 28
 		}
-		autocratism = {
-			popularity = 18
-		}
+		
 	}
 	
 	ruling_party = conservatism
@@ -67,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
 	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic_conservatism
 	traits = {
 		#
 	}
@@ -78,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_CONSTANTIN_PARHON_DESC"
 	picture = "Portrait_Romania_Constantin_Parhon.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -89,7 +87,7 @@ create_country_leader = {
 	desc = "POLITICS_ARMAND_CALINESCU_DESC"
 	picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = authoritarian_conservatism
 	traits = {
 		#
 	}
@@ -100,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
 	picture = "Portrait_Romania_Octavian_Goga.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -111,7 +109,7 @@ create_country_leader = {
 	desc = "POLITICS_ION_ANTONESCU_DESC"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}

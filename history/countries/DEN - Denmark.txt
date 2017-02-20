@@ -26,7 +26,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -45,9 +45,6 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
 	}
 	
 	ruling_party = socialism
@@ -63,7 +60,7 @@ create_country_leader = {
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = fabianism
 	traits = {
 		#
 	}
@@ -74,7 +71,7 @@ create_country_leader = {
 	desc = "POLITICS_FRITS_CLAUSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -85,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_AKSEL_LARSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -96,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic_conservatism
 	traits = {
 		#
 	}

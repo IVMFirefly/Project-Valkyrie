@@ -32,7 +32,7 @@ set_politics = {
 			popularity = 30
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 0
 		}
 
@@ -49,11 +49,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 17
+			popularity = 22
 		}
-		autocratism = {
-			popularity = 5
-		}
+		
 	}
 	
 	ruling_party = liberalism
@@ -67,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
 	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = market_liberalism
 	traits = {
 		#
 	}
@@ -78,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_AIMO_AALTONEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -89,7 +87,7 @@ create_country_leader = {
 	desc = "POLITICS_VILHO_ANNALA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -100,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
 	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = authoritarian_conservatism
 	traits = {
 		#
 	}

@@ -16,7 +16,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -33,14 +33,11 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
-		}
-		autocratism = {
-			popularity = 33
+			popularity = 43
 		}
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,7 +48,7 @@ create_country_leader = {
 	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = absolutism
 	traits = {
 		#
 	}

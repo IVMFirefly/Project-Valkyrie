@@ -32,7 +32,7 @@ set_politics = {
 			popularity = 23
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -41,7 +41,7 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 12
 		}
 		
 		socialism = {
@@ -51,9 +51,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 10
 		}
-		autocratism = {
-			popularity = 10
-		}
+		
 	}
 	
 	ruling_party = socialism
@@ -70,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "Portrait_Spain_Manuel_Azana.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = democratic_socialism
 	traits = {
 		#
 	}
@@ -81,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_DIAZ_DESC"
 	picture = "Portrait_Spain_Jose_Diaz.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = anarcho_communism
 	traits = {
 		#
 	}
@@ -92,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 	picture = "Portrait_Spain_Francisco_Franco.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -103,7 +101,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = market_liberalism
 	traits = {
 		#
 	}

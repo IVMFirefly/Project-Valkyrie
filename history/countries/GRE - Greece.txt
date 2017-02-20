@@ -31,7 +31,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -48,14 +48,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 15
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 28
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = yes # none after offset 1
@@ -67,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -78,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_MARKOS_VAFIADIS_DESC"
 	picture = "Portrait_Greece_Markos_Vafiadis.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -89,7 +87,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic_conservatism
 	traits = {
 		#
 	}
@@ -100,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}

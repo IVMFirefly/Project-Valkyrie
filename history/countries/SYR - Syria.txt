@@ -15,7 +15,7 @@ set_politics = {
 			popularity = 30
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -34,9 +34,6 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
 	}
 	
 	ruling_party = liberalism
@@ -49,7 +46,7 @@ create_country_leader = {
 	name = "Hashim al-Atassi"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_navy_1.dds"
-	ideology = liberalism
+	ideology = market_liberalism
 	traits = {
 		#
 	}
@@ -59,7 +56,7 @@ create_country_leader = {
 	name = "Antun Saadeh"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -69,7 +66,7 @@ create_country_leader = {
 	name = "Ghazi bin Faisal"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -79,7 +76,7 @@ create_country_leader = {
 	name = "Khalid Bakdash"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_communism1.dds"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}

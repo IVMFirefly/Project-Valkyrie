@@ -17,7 +17,7 @@ set_politics = {
 			popularity = 20
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 0
 		}
 
@@ -34,14 +34,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 17
+			popularity = 72
 		}
-		autocratism = {
-			popularity = 45
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,7 +50,7 @@ create_country_leader = {
 	name = "François Tolenga"
 	picture = "Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		compassionate_gentleman
 	}
@@ -62,7 +60,7 @@ create_country_leader = {
 	name = "Lumumba Lomendja"
 	picture = "Portrait_Africa_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		silent_workhorse
 	}
@@ -73,7 +71,7 @@ create_country_leader = {
 	name = "David Manera"
 	picture = "Portrait_Africa_Generic_Land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		
 	}

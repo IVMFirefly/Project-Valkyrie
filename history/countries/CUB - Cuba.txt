@@ -65,7 +65,7 @@ set_politics = {
 			popularity = 30
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -84,9 +84,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
+		
 	}
 	
 	ruling_party = liberalism
@@ -100,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = market_liberalism
 	traits = {
 		#
 	}

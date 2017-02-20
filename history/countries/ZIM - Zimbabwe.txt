@@ -17,7 +17,7 @@ set_politics = {
 			popularity = 10
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 30
 		}
 
@@ -34,14 +34,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 17
+			popularity = 42
 		}
-		autocratism = {
-			popularity = 25
-		}
+		
 	}
 	
-	ruling_party = fascism
+	ruling_party = national_integralism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -52,7 +50,7 @@ create_country_leader = {
 	name = " Marcus James Hugins"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = { 
 		prince_of_terror
 		

@@ -31,7 +31,7 @@ set_politics = {
 			popularity = 20
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
@@ -50,9 +50,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
+		
 	}
 	
 	ruling_party = socialism
@@ -66,7 +64,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
 	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = fabianism
 	traits = {
 		#
 	}
@@ -77,7 +75,7 @@ create_country_leader = {
 	desc = "POLITICS_VIDKUN_QUISLING_DESC"
 	picture = "Portrait_Norway_Vidkun_Quisling.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -88,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic_conservatism
 	traits = {
 		#
 	}
@@ -99,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_ADAM_EGEDE_NISSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}

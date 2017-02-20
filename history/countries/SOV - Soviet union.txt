@@ -47,7 +47,7 @@ set_politics = {
 			popularity = 5
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -56,7 +56,7 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 42
+			popularity = 65
 		}
 		
 		socialism = {
@@ -66,9 +66,7 @@ set_politics = {
 		reactionarism = {
 			popularity = 10
 		}
-		autocratism = {
-			popularity = 23
-		}
+		
 	}
 	
 	ruling_party = communism
@@ -77,26 +75,15 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = Comintern
-add_to_faction = SOV
 
-create_country_leader = {
-	name = "Joseph Stalin"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = communism
-	traits = {
-		
-	}
-}
+
 
 create_country_leader = {
 	name = "Leon Trotsky"
 	desc = "POLITICS_LEON_TROTSKY_DESC"
 	picture = "Trotsky.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 	
 	}
@@ -107,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
 	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
 	expire = "1953.3.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		
 	}
@@ -118,7 +105,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = democratic_socialism
 	traits = {
 		
 	}

@@ -33,7 +33,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -50,14 +50,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 33
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -72,7 +70,7 @@ create_country_leader = {
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1965.1.1"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -83,7 +81,7 @@ create_country_leader = {
 	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1938.11.10"
-	ideology = autocratism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -94,7 +92,7 @@ create_country_leader = {
 	desc = "POLITICS_SEFIK_HUSNU_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -105,7 +103,7 @@ create_country_leader = {
 	desc = "POLITICS_CELAL_BAYAR_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = authoritarian_conservatism
 	traits = {
 		#
 	}
@@ -115,7 +113,7 @@ create_country_leader = {
 	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}

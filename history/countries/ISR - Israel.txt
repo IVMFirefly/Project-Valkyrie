@@ -15,31 +15,28 @@ set_politics = {
 			popularity = 30
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 1
 		}
 
 		liberalism = {
-			popularity = 40
+			popularity = 10
 		}
 		
 		communism = {
-			popularity = 5
+			popularity = 30
 		}
 		
 		socialism = {
-			popularity = 9
+			popularity = 24
 		}
 		
 		reactionarism = {
 			popularity = 15
 		}
-		autocratism = {
-			popularity = 0
-		}
 	}
 	
-	ruling_party = liberalism
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -49,7 +46,7 @@ create_country_leader = {
 	name = "David Ben-Gurion"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	ideology = liberalism
+	ideology = democratic_socialism
 	traits = {
 		#
 	}
@@ -59,27 +56,18 @@ create_country_leader = {
 	name = "Itzhak Gaster"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Rudolf Szabó"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = autocratism
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Shmuel Mikunis"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	ideology = communism
+	ideology = anarcho_communism
 	traits = {
 		#
 	}

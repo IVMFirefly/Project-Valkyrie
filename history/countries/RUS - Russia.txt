@@ -47,7 +47,7 @@ set_politics = {
 			popularity = 5
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -64,14 +64,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 53
 		}
-		autocratism = {
-			popularity = 43
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no

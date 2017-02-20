@@ -19,7 +19,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 
@@ -36,14 +36,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 10
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 33
-		}
+		
 	}
 	
-	ruling_party = autocratism
+	ruling_party = reactionarism
 	last_election = "1934.11.11"
 	election_frequency = 72
 	elections_allowed = yes
@@ -54,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
 	picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
 	expire = "1965.1.1"
-	ideology = autocratism # liberalism, personally, but puppet for military
+	ideology = autocracy # liberalism, personally, but puppet for military
 	traits = {
 		#
 	}
@@ -65,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_OSCAR_UNZAGA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}

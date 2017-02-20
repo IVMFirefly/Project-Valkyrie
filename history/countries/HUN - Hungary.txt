@@ -22,7 +22,7 @@ set_politics = {
 			popularity = 20
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 5
 		}
 
@@ -39,11 +39,9 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 40
+			popularity = 43
 		}
-		autocratism = {
-			popularity = 3
-		}
+		
 	}
 	
 	ruling_party = reactionarism
@@ -57,7 +55,7 @@ create_country_leader = {
 	desc = "POLITICS_MIKLOS_HORTHY_DESC"
 	picture = "Portrait_Hungary_Miklos_Horthy.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = national_integralism
 	traits = {
 		#
 	}
@@ -68,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
 	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -79,7 +77,7 @@ create_country_leader = {
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = fabianism
 	traits = {
 		#
 	}
