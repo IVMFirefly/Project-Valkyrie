@@ -29,7 +29,7 @@ set_politics = {
 		}
 
 		national_integralism = {
-			popularity = 35
+			popularity = 20
 		}
 
 		liberalism = {
@@ -37,7 +37,7 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 22
 		}
 		
 		socialism = {

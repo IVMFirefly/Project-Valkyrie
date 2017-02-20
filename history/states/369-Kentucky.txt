@@ -7,14 +7,14 @@ state={
 	state_category = city
 
 	history={
-		owner = KEN
+		owner = KET
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			air_base = 4
 		}
 		add_core_of = USA
-		add_core_of = KEN
+		add_core_of = KET
 		victory_points = {
 			6696 1 
 		}
