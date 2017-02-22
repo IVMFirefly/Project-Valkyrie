@@ -8,12 +8,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = BOS
+		owner = SER
 		buildings = {
 			infrastructure = 4
 		}
 		add_core_of = BOS
 		add_claim_by = AUS
+		add_core_of = SER
 	}
 
 	provinces={

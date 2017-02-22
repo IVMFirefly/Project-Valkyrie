@@ -4,10 +4,10 @@ state={
 	name="Antakya"
 	manpower = 200000
 	
-	state_category = rural
+	state_category = pastoral
 	
 	history={
-		owner = TUR
+		owner = SYR
 		buildings = {
 			infrastructure = 3
 		}
