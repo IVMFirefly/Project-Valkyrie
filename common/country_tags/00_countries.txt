@@ -59,6 +59,7 @@ KAZ = "countries/Kazakhstan.txt"
 TUK = "countries/Turkestan.txt"
 RUS = "countries/Russia.txt"
 DON = "countries/Don.txt"
+AME = "countries/America.txt"
 
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"

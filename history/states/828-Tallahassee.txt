@@ -4,7 +4,7 @@ state={
 	name="Tallahassee"
 
 	history={
-		owner = FLO
+		owner = AME
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -16,6 +16,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = FLO
+		add_core_of = AME
 		
 		victory_points = {
 			10407 1 

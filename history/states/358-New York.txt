@@ -8,7 +8,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = NEY
+		owner = AME
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
@@ -23,6 +23,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = NEY
+		add_core_of = AME
 		victory_points = {
 			3878 30.0 
 		}

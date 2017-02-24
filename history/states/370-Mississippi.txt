@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = MIS
+		owner = AME
 		victory_points = {
 			4464 1 
 		}
@@ -21,6 +21,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = MIS
+		add_core_of = AME
 	}
 
 	provinces={

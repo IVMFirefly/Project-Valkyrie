@@ -9,7 +9,7 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = MIC
+		owner = AME
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -19,6 +19,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = MIC
+		add_core_of = AME
 		victory_points = {
 			6710 20 
 		}

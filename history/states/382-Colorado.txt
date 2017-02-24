@@ -10,13 +10,14 @@ state={
 	state_category = town
 
 	history={
-		owner = COR
+		owner = AME
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		add_core_of = COR
 		add_core_of = USA
+		add_core_of = AME
 		victory_points = {
 			1827 5 
 		}

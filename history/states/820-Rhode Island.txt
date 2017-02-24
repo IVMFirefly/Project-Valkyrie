@@ -4,7 +4,7 @@ state={
 	name="Rhode Island"
 
 	history={
-		owner = RHI
+		owner = AME
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
@@ -12,6 +12,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = RHI
+		add_core_of = AME
                 victory_points = {
 			11830 1
 		}

@@ -4,7 +4,7 @@ state={
 	name="Eastern Washington"
 
 	history={
-		owner = WAS
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1

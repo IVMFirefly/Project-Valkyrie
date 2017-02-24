@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = NEV
+		owner = USA
 		buildings = {
 			infrastructure = 4
                         industrial_complex = 1

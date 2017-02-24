@@ -4,7 +4,7 @@ state={
 	name="Washington D.C."
 
 	history={
-		owner = USA
+		owner = AME
 		victory_points = {
 			3957 40 
 		}
@@ -21,6 +21,7 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = AME
 
 	}
 

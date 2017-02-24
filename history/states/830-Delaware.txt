@@ -5,7 +5,7 @@ state={
 	name="Delaware"
 
 	history={
-		owner = DEL
+		owner = AME
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
@@ -13,6 +13,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = DEL
+		add_core_of = AME
 
 	}
 

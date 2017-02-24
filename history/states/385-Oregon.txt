@@ -4,7 +4,7 @@ state={
 	name = "Salem"
 
 	history={
-		owner = ORE
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2

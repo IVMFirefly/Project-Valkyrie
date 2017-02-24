@@ -4,7 +4,7 @@ state={
 	name="Olympia"
 
 	history={
-		owner = WAS
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			dockyard = 1

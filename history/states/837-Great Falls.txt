@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = MNN
+		owner = AME
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -15,6 +15,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = MNN
+		add_core_of = AME
 		victory_points = {
 			4860 1 
 		}

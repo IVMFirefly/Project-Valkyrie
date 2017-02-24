@@ -4,7 +4,7 @@ state={
 	name="North California"
 
 	history={
-		owner = CAL
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1

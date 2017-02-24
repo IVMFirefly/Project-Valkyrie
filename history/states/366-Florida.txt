@@ -4,7 +4,7 @@ state={
 	name="Jacksonville"
 
 	history={
-		owner = FLO
+		owner = AME
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -22,6 +22,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = FLO
+		add_core_of = AME
                 victory_points = {
 			12381 3
 		}
