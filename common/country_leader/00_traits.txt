@@ -246,7 +246,7 @@ leader_traits = {
 		random = no
 		# Boosts national_idealism
 		sprite = 13
-		national_idealism_drift = 0.1
+		national_integralism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
