@@ -2,6 +2,7 @@
 state={
 	id=5
 	name="East Prussia"
+	manpower = 1413509
 	state_category = city
 
 	history={
