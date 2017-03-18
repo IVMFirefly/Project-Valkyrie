@@ -2,8 +2,7 @@
 state={
 	id=5
 	name="East Prussia"
-	manpower = 3378108
-	state_category = large_city
+	state_category = city
 
 	history={
 		owner = GER

@@ -1,11 +1,20 @@
 state={
 	id=841
-	name="STATE_841"
+	name="Warmia-Masuria"
+	state_category = rural
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		add_core_of = GER
+	}
+
 	provinces={
 		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }
 
 
