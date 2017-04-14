@@ -9,8 +9,7 @@ state={
 	}
 
 	history={
-		owner = ITA
-		add_claim_by = ITA
+		owner = LBA
 		victory_points = {
 			11969 10 
 		}
@@ -25,6 +24,7 @@ state={
 				naval_base = 8
 			}
 		}
+		add_core_of = LBA
 	}
 
 	provinces={

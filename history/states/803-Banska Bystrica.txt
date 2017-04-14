@@ -4,6 +4,9 @@ state={
 	id=803
 	name="Banska Bystrica"
 	manpower = 550000
+	resources={
+		steel=20
+	}
 	
 	state_category = rural
 	

@@ -1101,7 +1101,7 @@ ideas = {
 
 	}
 	
-	theorist = {
+	theorist_2 = {
 
 		generic_military_theorist = {
 			

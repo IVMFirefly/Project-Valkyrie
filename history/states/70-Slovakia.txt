@@ -12,7 +12,7 @@ state={
 	history={
 		owner = SLO
 		victory_points = {
-			9692 10 
+			9692 5
 		}
 		buildings = {
 			infrastructure = 6

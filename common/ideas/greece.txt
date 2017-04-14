@@ -1,5 +1,27 @@
 ideas = {
 
+country = {
+GRE_Megali_Idea = {
+
+		allowed = {
+			original_tag = GRE
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_intel_bonus
+
+		modifier = {
+			justify_war_goal_time = -0.25
+			generate_wargoal_tension = -0.4
+		}
+	}
+	
 	political_advisor = {
 
 	GRE_damaskinos = {
@@ -294,4 +316,4 @@ theorist = {
 			traits = { naval_manufacturer }
 		}
 	}
-}
+}}
