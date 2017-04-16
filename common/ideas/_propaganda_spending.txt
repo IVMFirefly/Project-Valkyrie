@@ -1,0 +1,54 @@
+ideas = {
+
+	propaganda_spending = {
+	law = yes
+		very_low_spending = {
+			available = { always = no }
+			default = yes
+			removal_cost = -1
+			modifier = {}
+			picture = generic_volunteer_expedition_bonus
+		}
+		
+		low_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { political_power_gain = 0.1
+			             unity_factor = 0.025 
+						 conscription_factor = 0.025 
+						 consumer_goods_factor = 0.0075 }
+			picture = generic_volunteer_expedition_bonus
+		}
+		
+		normal_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { political_power_gain = 0.2
+                         unity_factor = 0.05
+						 conscription_factor = 0.05 
+			             consumer_goods_factor = 0.015 }
+			picture = generic_volunteer_expedition_bonus
+		}
+		
+		high_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { political_power_gain = 0.3
+                         unity_factor = 0.075
+						 conscription_factor = 0.075
+			             consumer_goods_factor = 0.0225 }
+			picture = generic_volunteer_expedition_bonus
+		}
+		
+		very_high_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { political_power_gain = 0.4
+                         unity_factor = 0.1
+						 conscription_factor = 0.1
+			             consumer_goods_factor = 0.03 }
+			picture = generic_volunteer_expedition_bonus
+		}
+			
+	}
+}

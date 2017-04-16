@@ -1,0 +1,54 @@
+ideas = {
+
+	espionage_spending = {
+	law = yes
+		very_low_spending = {
+			available = { always = no }
+			default = yes
+			removal_cost = -1
+			modifier = {}
+			picture = generic_spy_coup
+		}
+		
+		low_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { enemy_partisan_effect = -0.05
+                         subversive_activites_upkeep = -0.125	
+						 drift_defence_factor = 0.075 
+						 consumer_goods_factor = 0.0075 }
+			picture = generic_spy_coup
+		}
+		
+		normal_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { enemy_partisan_effect = -0.1 
+			             subversive_activites_upkeep = -0.25 
+						 drift_defence_factor = 0.15 
+						 consumer_goods_factor = 0.015 }
+			picture = generic_spy_coup
+		}
+		
+		high_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { enemy_partisan_effect = -0.15 
+			             subversive_activites_upkeep = -0.375 
+						 drift_defence_factor = 0.225 
+						 consumer_goods_factor = 0.0225 }
+			picture = generic_spy_coup
+		}
+		
+		very_high_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { enemy_partisan_effect = -0.2 
+			             subversive_activites_upkeep = -0.5 
+						 drift_defence_factor = 0.3 
+						 consumer_goods_factor = 0.03 }
+			picture = generic_spy_coup
+		}
+	
+	}
+}

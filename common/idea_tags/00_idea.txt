@@ -17,6 +17,10 @@ idea_categories = {
 	    slot = popularity
 	    slot = literacy
 		slot = mechanisation
+		slot = propaganda_spending
+        slot = army_spending
+		slot = espionage_spending
+		
 	}
 	government = {
 		slot = mobilization_laws

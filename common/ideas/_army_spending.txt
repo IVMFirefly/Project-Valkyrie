@@ -1,0 +1,54 @@
+ideas = {
+
+	army_spending = {
+	law = yes
+		very_low_spending = {
+			available = { always = no }
+			default = yes
+			removal_cost = -1
+			modifier = {}
+			picture = generic_morale_bonus
+		}
+		
+		low_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { military_leader_cost_factor = -0.33 
+			             max_planning = 0.05
+				         planning_speed = -0.05
+			             consumer_goods_factor = 0.0075 }
+			picture = generic_morale_bonus
+		}
+		
+		normal_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { military_leader_cost_factor = -0.75 
+			             max_planning = 0.10
+				         planning_speed = -0.10
+			             consumer_goods_factor = 0.015 }
+			picture = generic_morale_bonus
+		}
+		
+		high_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { military_leader_cost_factor = -0.75 
+			             max_planning = 0.15
+				         planning_speed = -0.15
+			             consumer_goods_factor = 0.0225 }
+			picture = generic_morale_bonus
+		}
+		
+		very_high_spending = {
+			available = { always = no }
+			removal_cost = -1
+			modifier = { military_leader_cost_factor = -0.75 
+			             max_planning = 0.2
+				         planning_speed = -0.2
+			             consumer_goods_factor = 0.03 }
+			picture = generic_morale_bonus
+		}
+	
+	}
+}
