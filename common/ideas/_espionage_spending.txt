@@ -2,16 +2,18 @@ ideas = {
 
 	espionage_spending = {
 	law = yes
-		very_low_spending = {
-			available = { always = no }
-			default = yes
+		very_low_espionage_spending = {
+			cost = 150
+			level = 5
 			removal_cost = -1
 			modifier = {}
+			default = yes
 			picture = generic_spy_coup
 		}
 		
-		low_spending = {
-			available = { always = no }
+		low_espionage_spending = {
+			cost = 150
+			level = 4
 			removal_cost = -1
 			modifier = { enemy_partisan_effect = -0.05
                          subversive_activites_upkeep = -0.125	
@@ -20,8 +22,9 @@ ideas = {
 			picture = generic_spy_coup
 		}
 		
-		normal_spending = {
-			available = { always = no }
+		normal_espionage_spending = {
+			cost = 150
+			level = 3
 			removal_cost = -1
 			modifier = { enemy_partisan_effect = -0.1 
 			             subversive_activites_upkeep = -0.25 
@@ -30,8 +33,9 @@ ideas = {
 			picture = generic_spy_coup
 		}
 		
-		high_spending = {
-			available = { always = no }
+		high_espionage_spending = {
+			cost = 150
+			level = 2
 			removal_cost = -1
 			modifier = { enemy_partisan_effect = -0.15 
 			             subversive_activites_upkeep = -0.375 
@@ -40,8 +44,9 @@ ideas = {
 			picture = generic_spy_coup
 		}
 		
-		very_high_spending = {
-			available = { always = no }
+		very_high_espionage_spending = {
+			cost = 150
+			level = 1
 			removal_cost = -1
 			modifier = { enemy_partisan_effect = -0.2 
 			             subversive_activites_upkeep = -0.5 
