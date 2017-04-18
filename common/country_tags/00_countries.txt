@@ -61,6 +61,7 @@ RUS = "countries/Russia.txt"
 DON = "countries/Don.txt"
 AME = "countries/America.txt"
 NEF = "countries/Newfoundland.txt"
+KUR = "countries/Kurdistan.txt"
 
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"

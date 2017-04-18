@@ -15,7 +15,7 @@ ideas = {
 			cost = 150
 			level = 4
 			removal_cost = -1
-			modifier = { military_leader_cost_factor = -0.33 
+			modifier = { military_leader_cost_factor = -0.20 
 			             max_planning = 0.05
 				         planning_speed = 0.05
 			             consumer_goods_factor = 0.0075 }
@@ -27,7 +27,7 @@ ideas = {
 			cost = 150
 			level = 3
 			removal_cost = -1
-			modifier = { military_leader_cost_factor = -0.75 
+			modifier = { military_leader_cost_factor = -0.40 
 			             max_planning = 0.10
 				         planning_speed = 0.10
 			             consumer_goods_factor = 0.015 }
@@ -38,7 +38,7 @@ ideas = {
 			cost = 150
 			level = 2
 			removal_cost = -1
-			modifier = { military_leader_cost_factor = -0.75 
+			modifier = { military_leader_cost_factor = -0.60 
 			             max_planning = 0.15
 				         planning_speed = 0.15
 			             consumer_goods_factor = 0.0225 }
@@ -49,7 +49,7 @@ ideas = {
 			cost = 150
 			level = 1
 			removal_cost = -1
-			modifier = { military_leader_cost_factor = -0.75 
+			modifier = { military_leader_cost_factor = -0.80 
 			             max_planning = 0.2
 				         planning_speed = 0.2
 			             consumer_goods_factor = 0.03 }

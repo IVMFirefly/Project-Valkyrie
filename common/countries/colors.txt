@@ -776,4 +776,7 @@ NEF = {
 	color = rgb { 255 175 100 }
 	color_ui = rgb { 255  204  204 }
 }
-
+KUR = {
+	color = rgb { 255 125 0 }
+	color_ui = rgb { 255  204  204 }
+}
