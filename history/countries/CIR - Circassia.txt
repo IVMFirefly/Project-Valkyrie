@@ -1,4 +1,4 @@
-﻿capital = 233 
+﻿capital = 232
 
 oob = "CIR_1936"
 

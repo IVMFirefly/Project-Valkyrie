@@ -6,7 +6,7 @@ state={
 	state_category = metropolis
 	
 	history={
-		owner = AUS
+		owner = BOH
 		victory_points = { 11542 20 }
 		victory_points = { 6418 1 }
 		buildings = {
@@ -17,7 +17,6 @@ state={
 			air_base = 5
 		}
 		
-		add_core_of = CZE
 		add_core_of = BOH
 		add_core_of = AUS
 		

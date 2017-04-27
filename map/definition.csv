@@ -13205,4 +13205,9 @@
 13204;95;65;145;land;true;unknown;6
 13205;95;65;138;land;false;hills;1
 13206;124;85;130;land;false;hills;1
-13207;14;15;210;land;false;hills;1
+13207;14;15;210;land;false;hills;0
+13208;149;105;20;land;false;hills;0
+13209;249;102;2;land;false;hills;0
+13210;126;52;89;land;false;mountain;0
+13211;114;86;82;land;true;plains;2
+13212;128;26;22;land;true;plains;2

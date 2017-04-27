@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 
-		SLO_frano_kral = {
+		Terka_Beňadiková = {
 
 			picture = generic_political_advisor_europe_1
 			
@@ -13,7 +13,7 @@ ideas = {
 			traits = { popular_figurehead }
 		}
 
-		SLO_janko_jesensky = {
+		Adam_Senkjú = {
 
 			picture = generic_political_advisor_europe_2
 				
@@ -24,21 +24,7 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		SLO_stefan_tiso = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = SLO
-			}
-			
-			traits = { backroom_backstabber }
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		SLO_jaroslav_kratochvil = {
+		Michal_Duraj = {
 
 			picture = generic_political_advisor_europe_2
 			
@@ -49,7 +35,7 @@ ideas = {
 			traits = { war_industrialist }
 		}
 
-		SLO_karol_sidor = {
+		Miška_Dorušiaková = {
 
 			picture = generic_political_advisor_europe_1
 			

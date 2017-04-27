@@ -1,7 +1,7 @@
 
 state={
-	id = 767
-	name = "STATE_767"
+	id=767
+	name="STATE_767"
 
 	history={
 		owner = SWI
@@ -14,9 +14,9 @@ state={
 	}
 
 	provinces={
-		 661  11623 
+		661 11623 
 	}
-	manpower = 354711
-	buildings_max_level_factor = 1.000
-	state_category = rural
+	manpower=354711
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

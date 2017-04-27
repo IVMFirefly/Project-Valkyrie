@@ -780,3 +780,7 @@ KUR = {
 	color = rgb { 255 125 0 }
 	color_ui = rgb { 255  204  204 }
 }
+CAT = {
+	color = rgb { 255 170 0 }
+	color_ui = rgb { 255  204  204 }
+}

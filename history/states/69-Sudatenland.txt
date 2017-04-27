@@ -7,13 +7,12 @@ state=
 	state_category = town
 	
 	history={
-		owner = AUS
+		owner = BOH
 		buildings = {
 			infrastructure = 6
 			anti_air_building = 5
 			
 		}
-		add_core_of = CZE
 		add_core_of = BOH
 		add_core_of = AUS
 		add_core_of = GER

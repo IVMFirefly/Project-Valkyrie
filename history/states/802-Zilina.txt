@@ -2,15 +2,13 @@
 state={
 	id=802
 	name="Zilina"
-	manpower = 550000
-	
-	state_category = rural
-	
+
 	history={
 		owner = SLO
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
+
 		}
 		add_core_of = HUN
 		add_core_of = SLO
@@ -18,6 +16,9 @@ state={
 	}
 
 	provinces={
-		581 3484 9551 11554 
+		555 581 3537 9551 11539 11554 
 	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

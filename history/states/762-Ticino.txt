@@ -7,7 +7,8 @@ state={
 		owner = SWI
 		buildings = {
 			infrastructure = 5
-			}
+
+		}
 		add_core_of = SWI
 
 	}
@@ -15,7 +16,7 @@ state={
 	provinces={
 		3641 9600 
 	}
-	manpower= 250000
+	manpower=250000
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
