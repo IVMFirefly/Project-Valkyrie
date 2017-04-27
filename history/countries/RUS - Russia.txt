@@ -38,17 +38,17 @@ set_technology = {
 }
 
 set_convoys = 50
-set_national_unity = 0.55
+set_national_unity = 0.6
 
 set_politics = {
 
 	parties = {
 	    conservatism = {
-			popularity = 5
+			popularity = 10
 		}
 
 		national_integralism = {
-			popularity = 10
+			popularity = 25
 		}
 
 		liberalism = {
@@ -56,15 +56,15 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 12
+			popularity = 0
 		}
 		
 		socialism = {
-			popularity = 15
+			popularity = 0
 		}
 		
 		reactionarism = {
-			popularity = 53
+			popularity = 60
 		}
 		
 	}
@@ -73,5 +73,16 @@ set_politics = {
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Lavr Kornilov"
+	desc = "POLITICS_LEON_TROTSKY_DESC"
+	picture = "Lavr_Kornilov.dds"
+	expire = "1965.1.1"
+	ideology = autocracy
+	traits = {
+	
+	}
 }
 
