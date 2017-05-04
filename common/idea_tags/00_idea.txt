@@ -17,17 +17,17 @@ idea_categories = {
 	    slot = popularity
 	    slot = literacy
 		slot = mechanisation
-		slot = propaganda_spending
         slot = army_spending
-		slot = espionage_spending
+		slot = political_advisor
+		slot = political_advisor
 		
 	}
 	government = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = political_advisor
-		slot = political_advisor
+		slot = internal_policy
+		slot = citizenship_policy
 		slot = political_advisor
 		
 		cost = 150
