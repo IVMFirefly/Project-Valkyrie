@@ -127,7 +127,6 @@ ideas = {
 			modifier = { 
 			
 				enemy_partisan_effect = 0.25
-			    subversive_activites_upkeep = -0.15 
 				drift_defence_factor = 0.15 
 				consumer_goods_factor = 0.075
 

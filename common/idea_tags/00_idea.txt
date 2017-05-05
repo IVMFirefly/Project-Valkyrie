@@ -13,11 +13,11 @@ idea_categories = {
 		cost = 0
 		removal_cost = -1
 	}
-	Traits = {
+	government = {
 	    slot = popularity
-	    slot = literacy
-		slot = mechanisation
+	    slot = stability
         slot = army_spending
+		slot = political_advisor
 		slot = political_advisor
 		slot = political_advisor
 		
@@ -28,7 +28,7 @@ idea_categories = {
 		slot = economy
 		slot = internal_policy
 		slot = citizenship_policy
-		slot = political_advisor
+		slot = foreign_policy
 		
 		cost = 150
 		removal_cost = 0
