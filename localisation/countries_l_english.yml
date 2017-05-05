@@ -75,3 +75,39 @@ USA_socialism_DEF:0 "America"
 USA_reactionarism:0 "United States of America"
 USA_reactionarism_ADJ:0 "American"
 USA_reactionarism_DEF:0 "America"
+
+FRA_reactionarism:0 "France"
+
+GER_conservatism:0 "German Empire"
+
+HOL_conservatism:0 "Netherlands"
+
+UKR_conservatism:0 "Ukraine"
+
+SPR_socialism:0 "Spain"
+
+AUS_reactionarism:0 "Austria"
+
+HUN_reactionarism:0 "Hungary"
+
+POL_conservatism:0 "Poland"
+
+CAN_liberalism:0 "Canada"
+
+FIN_liberalism:0 "Finland"
+
+JAP_reactionarism:0 "Japan"
+
+ROM_conservatism:0 "Kingdom of Romania"
+
+ENG_conservatism:0 "United Kingdom"
+
+MEX_reactionarism:0 "Mexico"
+
+ITA_communism:0 "Italian People's Republic"
+
+CZE_reactionarism:0 "Bohmeia"
+
+SWE_socialism:0 "Sweden"
+
+NOR_socialism:0 "Norway"
