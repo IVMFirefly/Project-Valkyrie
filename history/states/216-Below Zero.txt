@@ -5,7 +5,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = FIN
+		owner = SOV
 		victory_points = {
 			11159 1 
 		}
@@ -15,7 +15,6 @@ state={
 
 		}
 		add_core_of = SOV
-		add_claim_by = FIN
 
 	}
 
