@@ -1,4 +1,4 @@
-﻿l_english:
+﻿    l_english:
 
 RUS_conservatism:0 "Republic of Russia"
 RUS_conservatism_ADJ:0 "Russian"
@@ -37,3 +37,77 @@ SOV_socialism_DEF:0 "Russia"
 SOV_reactionarism:0 "Russian State"
 SOV_reactionarism_ADJ:0 "Russian"
 SOV_reactionarism_DEF:0 "Russia"
+
+AME_conservatism:0 "American State"
+AME_conservatism_ADJ:0 "American"
+AME_conservatism_DEF:0 "America"
+AME_national_integralism:0 "American State"
+AME_national_integralism_ADJ:0 "American"
+AME_national_integralism_DEF:0 "America"
+AME_liberalism:0 "Republic of America"
+AME_liberalism_ADJ:0 "American"
+AME_liberalism_DEF:0 "America"
+AME_communism:0 "American Union"
+AME_communism_ADJ:0 "American"
+AME_communism_DEF:0 "America"
+AME_socialism:0 "Republic of America"
+AME_socialism_ADJ:0 "American"
+AME_socialism_DEF:0 "America"
+AME_reactionarism:0 "American State"
+AME_reactionarism_ADJ:0 "American"
+AME_reactionarism_DEF:0 "America"
+
+USA_conservatism:0 "United States of America"
+USA_conservatism_ADJ:0 "American"
+USA_conservatism_DEF:0 "America"
+USA_national_integralism:0 "American State"
+USA_national_integralism_ADJ:0 "American"
+USA_national_integralism_DEF:0 "America"
+USA_liberalism:0 "United States of America"
+USA_liberalism_ADJ:0 "American"
+USA_liberalism_DEF:0 "America"
+USA_communism:0 "American Union"
+USA_communism_ADJ:0 "American"
+USA_communism_DEF:0 "America"
+USA_socialism:0 "United States of America"
+USA_socialism_ADJ:0 "American"
+USA_socialism_DEF:0 "America"
+USA_reactionarism:0 "United States of America"
+USA_reactionarism_ADJ:0 "American"
+USA_reactionarism_DEF:0 "America"
+
+FRA_reactionarism:0 "France"
+
+GER_conservatism:0 "German Empire"
+
+HOL_conservatism:0 "Netherlands"
+
+UKR_conservatism:0 "Ukraine"
+
+SPR_socialism:0 "Spain"
+
+AUS_reactionarism:0 "Austria"
+
+HUN_reactionarism:0 "Hungary"
+
+POL_conservatism:0 "Poland"
+
+CAN_liberalism:0 "Canada"
+
+FIN_liberalism:0 "Finland"
+
+JAP_reactionarism:0 "Japan"
+
+ROM_conservatism:0 "Kingdom of Romania"
+
+ENG_conservatism:0 "United Kingdom"
+
+MEX_reactionarism:0 "Mexico"
+
+ITA_communism:0 "Italian People's Republic"
+
+CZE_reactionarism:0 "Bohmeia"
+
+SWE_socialism:0 "Sweden"
+
+NOR_socialism:0 "Norway"
