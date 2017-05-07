@@ -1,7 +1,7 @@
 
 state={
 	id=165
-	name="STATE_165"
+	name="Barcelona"
 
 	history={
 		owner = SPR
@@ -9,8 +9,10 @@ state={
 			6836 1 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 7
 			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 
 		}
 		add_core_of = SPR
@@ -19,9 +21,9 @@ state={
 	}
 
 	provinces={
-		854 872 897 3898 3899 6812 6836 6865 6927 6966 9797 9824 11779 
+		854 6927 9764 9824 11779 13213
 	}
-	manpower = 2036537
+	manpower = 1636537
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = town
 }
