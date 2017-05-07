@@ -53,7 +53,19 @@ very_low_stability:0 "Very Low Stability"
 low_stability:0 "Low Stability"
 normal_stability:0 "Normal Stability"
 high_stability:0 "High Stability"
-
+####party popularity####
+very_low_popularity:0 "Very Low Popularity"
+very_low_popularity_desc:0 "The people have lost all trust in the ruling party and the government and many are actively opposing it."
+low_popularity:0 "Low Popularity"
+low_popularity_desc:0 "Great dissatisfaction with the ruling party have eroded the support base to only a few remaining stronghold."
+normal_popularity:0 "Avarage Popularity"
+normal_popularity_desc:0 "The ruling party keeps a plurality in the public's hearts and minds and manages to attract enough supporters to remain in power."
+high_popularity:0 "High Popularity"
+high_popularity_desc:0 "The ruling party has the backing of the majority of the population and is able to demonstrate its populairty with mass events and rallies."
+very_high_popularity:0 "Very High Popularity"
+very_high_popularity_desc:0 "The ruling party has the support of virtually the entire population. Political opponents are relegated to the fringe of society."
+####traits####
+populairty_trait:0 "Ruling Party Popularity"
 
 ####flags####
 freedom_crusaders:0 "Freedom Crusaders"

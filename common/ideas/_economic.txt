@@ -20,7 +20,7 @@ ideas = {
 			cost = 200 
 		
 			modifier = {
-				consumer_goods_factor = -0.35 
+				consumer_goods_factor = -0.05  
 				production_speed_industrial_complex_factor = -0.5
 				production_speed_arms_factory_factor = -0.5
 				conversion_cost_civ_to_mil_factor = 0.5
@@ -103,7 +103,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.25 
+				consumer_goods_factor = 0.1  
 				production_speed_industrial_complex_factor = -0.3
 				production_speed_arms_factory_factor = -0.3
 				production_factory_max_efficiency_factor = -0.05 
@@ -143,7 +143,7 @@ ideas = {
 			
 			modifier = {
 			
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.025 
 				industrial_capacity_factory = -0.1 
 				political_power_gain = 0.1
 				
@@ -181,7 +181,7 @@ ideas = {
 			
 			modifier = {
 			
-				consumer_goods_factor = 0.1 
+				consumer_goods_factor = 0.2  
 				production_speed_arms_factory_factor = 0.5
 				conversion_cost_civ_to_mil_factor= -0.5
 				conversion_cost_mil_to_civ_factor = -0.5
