@@ -1,6 +1,6 @@
 state={
-	id=855
-	name="STATE_855"
+	id=856
+	name="Suwalki"
 	history={
 		owner = LIT
 		victory_points = {
