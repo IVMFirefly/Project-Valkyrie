@@ -20,6 +20,8 @@ technologies = {
 		
 		enable_subunits = {
 			infantry
+			militia
+			garrison
 		}
 		
 		path = {
