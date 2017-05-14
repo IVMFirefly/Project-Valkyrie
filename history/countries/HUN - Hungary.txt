@@ -50,12 +50,17 @@ set_politics = {
 	elections_allowed = yes
 }
 
+set_autonomy = {
+	target = SLO
+	autonomous_state =  autonomy_integrated_puppet
+}
+
 create_country_leader = {
 	name = "Miklós Horthy"
 	desc = "POLITICS_MIKLOS_HORTHY_DESC"
 	picture = "Portrait_Hungary_Miklos_Horthy.dds"
 	expire = "1965.1.1"
-	ideology = national_integralism
+	ideology = reactionarism
 	traits = {
 		#
 	}

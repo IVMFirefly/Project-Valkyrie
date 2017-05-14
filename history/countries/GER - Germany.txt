@@ -44,6 +44,10 @@ add_ideas = {
 Overconfident_general_staff
 }
 
+set_autonomy = {
+	target = BEL
+	autonomous_state =  autonomy_integrated_puppet
+}
 
 set_research_slots = 4
 set_convoys = 200

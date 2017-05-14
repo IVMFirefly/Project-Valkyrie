@@ -2,7 +2,7 @@ state={
 	id=856
 	name="Suwalki"
 	history={
-		owner = LIT
+		owner = POL
 		victory_points = {
 			3393 1 
 		}
@@ -11,7 +11,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = LIT
+		add_claim_by = LIT
 		add_core_of = POL 
 
 	}
