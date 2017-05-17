@@ -14,6 +14,20 @@ set_technology = {
 	early_fighter = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = BOH
+		autonomous_state = autonomy_colony
+		freedom_level = 0.5
+	}	
+	else = {
+		puppet = BOH
+	}
+}
+
 set_politics = {
 
 	parties = {
@@ -21,7 +35,7 @@ set_politics = {
 			popularity = 25
 		}
 
-		fascism = {
+		national_integralism = {
 			popularity = 10
 		}
 

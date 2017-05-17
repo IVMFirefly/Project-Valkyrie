@@ -18,7 +18,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = NEJ
 		add_core_of = AME
 	}
 

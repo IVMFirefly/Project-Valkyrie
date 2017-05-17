@@ -16,7 +16,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = ORE
 		victory_points = {
 			4328 1 
 		}

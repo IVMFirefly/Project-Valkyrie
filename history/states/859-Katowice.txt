@@ -1,0 +1,22 @@
+
+state = {
+	id = 859
+	name = "Katowice"
+
+	history = {
+		owner = POL
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces = {
+		506 6464 
+	}
+	manpower = 202591
+	buildings_max_level_factor = 1.000
+	state_category = average
+}

@@ -14,7 +14,6 @@ state={
 			air_base = 4
 		}
 		add_core_of = USA
-		add_core_of = KET
 		add_core_of = AME
 		victory_points = {
 			6696 1 

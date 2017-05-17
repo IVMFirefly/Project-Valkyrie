@@ -24,7 +24,6 @@ state={
 			}
 		}
 		add_core_of = USA
-		add_core_of = PEN
 		add_core_of = AME
 		victory_points = {
 			6845 20

@@ -18,7 +18,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = MIC
 		add_core_of = AME
 		victory_points = {
 			6710 20 

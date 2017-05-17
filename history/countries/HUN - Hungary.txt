@@ -31,7 +31,7 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 9
+			popularity = 29
 		}
 		
 		socialism = {
@@ -39,12 +39,12 @@ set_politics = {
 		}
 		
 		reactionarism = {
-			popularity = 43
+			popularity = 23
 		}
 		
 	}
 	
-	ruling_party = reactionarism
+	ruling_party = communism
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
@@ -60,7 +60,7 @@ create_country_leader = {
 	desc = "POLITICS_MIKLOS_HORTHY_DESC"
 	picture = "Portrait_Hungary_Miklos_Horthy.dds"
 	expire = "1965.1.1"
-	ideology = reactionarism
+	ideology = authoritarian_conservatism
 	traits = {
 		#
 	}

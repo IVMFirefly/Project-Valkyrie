@@ -12,7 +12,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = WVI
 		add_core_of = AME
 		1939.1.1 = {
 			buildings = {

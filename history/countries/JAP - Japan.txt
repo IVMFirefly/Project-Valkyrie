@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "Portrait_Japan_Hirohito.dds"
 	expire = "1989.1.1"
-	ideology = absolutionism
+	ideology = autocracy
 	traits = {
 		warrior_code
 	}

@@ -4,12 +4,13 @@ state={
 	name="STATE_758"
 
 	history={
-		owner = GER
+		owner = BEL
 		buildings = {
 			infrastructure = 6
 
 	}
-	add_core_of = GER }
+	add_core_of = GER
+    add_core_of = BEL	}
 
 	provinces={
 		3488

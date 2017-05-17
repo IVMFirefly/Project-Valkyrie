@@ -17,7 +17,6 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = USA
-		add_core_of = KAN
 		add_core_of = AME
 		victory_points = {
 			1352 1 

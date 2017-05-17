@@ -17,7 +17,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = WAS
 		victory_points = {
 			1690 1 
 		}

@@ -19,7 +19,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = TEX
 		add_core_of = AME
 		victory_points = {
 			12782 1 

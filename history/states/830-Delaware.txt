@@ -12,7 +12,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = DEL
 		add_core_of = AME
 
 	}

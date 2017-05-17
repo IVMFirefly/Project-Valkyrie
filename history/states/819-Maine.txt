@@ -17,7 +17,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = MAI
 		add_core_of = AME
 		victory_points = {
 			12459 1 
