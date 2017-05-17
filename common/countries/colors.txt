@@ -543,6 +543,10 @@ SHA = {
     color = rgb { 205 205 255 }
 	color_ui = rgb { 138 155 116 }
 }
+CIR = {
+    color = rgb { 35 175 35 }
+	color_ui = rgb { 138 155 116 }
+}
 KAZ = {
     color = rgb { 30 50 255 }
 	color_ui = rgb { 138 155 116 }
@@ -574,8 +578,12 @@ NEF = {
 KUR = {
 	color = rgb { 255 125 0 }
 	color_ui = rgb { 255  204  204 }
-}
+} 
 CAT = {
 	color = rgb { 255 170 0 }
+	color_ui = rgb { 255  204  204 }
+}
+PRS = {
+	color = rgb { 76 97 121 }
 	color_ui = rgb { 255  204  204 }
 }

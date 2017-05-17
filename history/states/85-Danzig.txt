@@ -4,13 +4,12 @@ state={
 	name="STATE_85"
 
 	history={
-		owner = GER
+		owner = PRS
 		victory_points = {
 			362 10 
 		}
 		buildings = {
 			infrastructure = 6
-			arms_factory = 2
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 3
@@ -20,15 +19,15 @@ state={
 			}
 
 		}
-		add_core_of = POL
+		add_core_of = PRS
 		add_core_of = GER
 
 	}
 
 	provinces={
-		362 389 9263 
+		362  
 	}
-	manpower=1080100
+	manpower=480100
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category= average
 }
