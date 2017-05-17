@@ -543,10 +543,6 @@ SHA = {
     color = rgb { 205 205 255 }
 	color_ui = rgb { 138 155 116 }
 }
-CIR = {
-    color = rgb { 35 175 35 }
-	color_ui = rgb { 138 155 116 }
-}
 KAZ = {
     color = rgb { 30 50 255 }
 	color_ui = rgb { 138 155 116 }
