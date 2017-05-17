@@ -78,7 +78,7 @@ USA_reactionarism_DEF:0 "America"
 
 FRA_reactionarism:0 "France"
 
-GER_conservatism:0 "German Empire"
+GER_conservatism:0 "Germany"
 
 HOL_conservatism:0 "Netherlands"
 
@@ -111,3 +111,35 @@ CZE_reactionarism:0 "Bohmeia"
 SWE_socialism:0 "Sweden"
 
 NOR_socialism:0 "Norway"
+
+BEL_conservatism:0 "Belgium"
+
+IRE_conservatism:0 "Ireland"
+
+DEN_socialism:0 "Denmark"
+
+POR_reactionarism:0 "Portugal"
+
+BRA_reactionarism:0 "Brazil"
+
+TUR_reactionarism:0 "Turkey"
+
+GRE_reactionarism:0 "Greece"
+
+IND_reactionarism:0 "India"
+
+AST_conservatism:0 "Australia"
+
+SAU_reactionarism:0 "Saudi Arabia"
+
+LBA_reactionarism:0 "Libya"
+
+TUK_reactionarism:0 "Turkestan"
+
+SWI_liberalism:0 "Switzerland"
+
+ETH_reactionarism:0 "Ethiopia"
+
+BOH_reactionarism:0 "Bohemia"
+
+PER_reactionarism:0 "Persia"
