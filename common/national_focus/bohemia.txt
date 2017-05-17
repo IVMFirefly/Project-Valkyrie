@@ -1,0 +1,118 @@
+focus_tree = {
+	id = bohemian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BOH
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = BOH
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+		
+
+	focus = {
+		id = BOH_Reaffirm_Imperial_Loyalty
+		icon = GFX_goal_generic_national_unity
+        mutually_exclusive = {
+	 		focus = BOH_No_More_Habsburgs
+	 	}
+		
+		x = 1
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			add_autonomy_ratio = {
+				value = -0.1
+				}
+		}
+	}
+	
+	focus = {
+		id = BOH_No_More_Habsburgs
+		icon = GFX_goal_generic_dangerous_deal
+        mutually_exclusive = {
+	 		focus = BOH_Reaffirm_Imperial_Loyalty
+	 	}
+		x = 3
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+			add_autonomy_ratio = {
+				value = 0.15
+				}
+		}
+	}	
+	
+	focus = {
+		id = BOH_Dethronisation
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = BOH_No_More_Habsburgs }
+		x = 3
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		
+		bypass = {
+        is_subject_of = AUS
+		}
+   		
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_autonomy_ratio = {
+				value = 0.15
+				}
+		}
+	}
+    focus = {
+		id = BOH_Dethronisation
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = BOH_No_More_Habsburgs }
+		x = 3
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		
+		bypass = {
+        is_subject_of = AUS
+		}
+   		
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_autonomy_ratio = {
+				value = 0.15
+				}
+		}
+	}	
+	
+}	

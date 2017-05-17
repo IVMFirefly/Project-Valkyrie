@@ -1,17 +1,17 @@
 focus_tree = {
-	id = greek_focus
+	id = hungarian_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = GRE
+			tag = HUN
 		}
 
 		#modifier = {
 		#	add = 10
-		#	original_tag = GRE
+		#	original_tag = HUN
 		#}
 	}
 	

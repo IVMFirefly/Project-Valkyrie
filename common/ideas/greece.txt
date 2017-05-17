@@ -21,7 +21,8 @@ GRE_Megali_Idea = {
 			generate_wargoal_tension = -0.4
 		}
 	}
-	
+}
+
 	political_advisor = {
 
 	GRE_damaskinos = {
