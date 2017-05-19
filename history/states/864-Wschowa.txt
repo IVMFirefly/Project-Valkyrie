@@ -1,0 +1,23 @@
+
+state={
+	id=864
+	name="Wschowa"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = POL
+		add_core_of = GER
+
+	}
+
+	provinces={
+		11478
+	}
+	manpower= 80000
+	buildings_max_level_factor=1.000
+	state_category= pastoral
+}

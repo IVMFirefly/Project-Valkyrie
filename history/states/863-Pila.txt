@@ -1,0 +1,24 @@
+
+state={
+	id=863
+	name="Pila"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+		add_core_of = POL
+
+	}
+
+	provinces={
+		9252 11260 11288 
+	}
+	manpower = 220000
+	buildings_max_level_factor=1.000
+	state_category = average
+}
