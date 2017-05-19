@@ -10,7 +10,6 @@ focus_tree = {
 	default = no
 	focus = {
 		id = GER_Support_Democrats
-		text = Support Democrats
 		icon = GFX_goal_support_democracy
 		cost = 10,00
 		mutually_exclusive = {
@@ -22,7 +21,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Support_Commnists
-		text = Support Communists
 		icon = GFX_focus_generic_join_comintern
 		cost = 10,00
 		mutually_exclusive = {
@@ -34,7 +32,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Support_Integralists
-		text = Support Integralists
 		icon = GFX_goal_support_fascism
 		cost = 10,00
 		mutually_exclusive = {
@@ -47,8 +44,11 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Puppet_Denmark
-		text = Puppet Denmark
 		icon = GFX_goal_generic_wolf_pack
+		prerequisite = {
+			focus = GER_Eastern_Claims
+			focus = GER_Western_Claims
+		}
 		cost = 10,00
 		mutually_exclusive = {
 			focus = GER_North_Schleswig
@@ -59,7 +59,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Prepare_Autobahn_Project
-		text = Prepare Autobahn Project
 		icon = GFX_goal_generic_production2
 		cost = 10,00
 		x = 15
@@ -68,16 +67,11 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Heimat
-		text = Heimat
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10,00
 		prerequisite = {
 			focus = GER_Support_Integralists
-		}
-		prerequisite = {
 			focus = GER_Support_Democrats
-		}
-		prerequisite = {
 			focus = GER_Support_Commnists
 		}
 		x = 5
@@ -86,7 +80,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Western_Claims
-		text = Western Claims
 		icon = GFX_focus_generic_strike_at_democracy2
 		cost = 10,00
 		prerequisite = {
@@ -98,7 +91,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Plebiscite_in_Saarland
-		text = Plebiscite in Saarland
 		icon = GFX_focus_generic_little_entente
 		cost = 10,00
 		prerequisite = {
@@ -109,20 +101,18 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GRE_Seek_Rimilitarisation
-		text = Seek Remilitarisation
+		id = GRE_Seek_Remilitarisation
 		icon = GFX_goal_tripartite_pact
 		cost = 10,00
 		prerequisite = {
 			focus = GER_Western_Claims
 		}
-		x = 1
-		y = 4
+		x = 3
+		y = 3
 
 	}
 	focus = {
 		id = GER_Befriend_France
-		text = Befriend France
 		icon = GFX_focus_generic_diplomatic_treaty
 		cost = 10,00
 		prerequisite = {
@@ -135,33 +125,46 @@ focus_tree = {
 		y = 5
 
 	}
+	
 	focus = {
-		id = GER_Remilitarise_Rhineland
-		text = Remilitarise Rhineland
-		icon = GFX_goal_anschluss
+		id = GER_Befriend_Italy
+		icon = GFX_focus_generic_diplomatic_treaty
 		cost = 10,00
 		prerequisite = {
-			focus = GER_Western_Claims
+			focus = GER_Plebiscite_in_Saarland
+		}
+		mutually_exclusive = {
+			focus = GER_Demand_Alsace-Lorraine
 		}
 		x = 3
 		y = 4
 
 	}
+	
 	focus = {
-		id = GER_Eupen_and_East_Friesland 
-		text = Eupen and East Friesland
-		icon = GFX_goal_generic_major_alliance
+		id = GER_Remilitarise_Rhineland
+		icon = GFX_goal_anschluss
 		cost = 10,00
 		prerequisite = {
 			focus = GER_Western_Claims
 		}
-		x = 4
+		x = 5
 		y = 3
 
 	}
 	focus = {
+		id = GER_Eupen_and_East_Friesland 
+		icon = GFX_goal_generic_major_alliance
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Plebiscite_in_Saarland
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
 		id = GER_Eastern_Claims
-		text = Eastern Claims
 		icon = GFX_goal_generic_alliance
 		cost = 10,00
 		prerequisite = {
@@ -173,7 +176,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_North_Schleswig
-		text = North Schleswig
 		icon = GFX_goal_generic_political_pressure
 		cost = 10,00
 		prerequisite = {
@@ -189,7 +191,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Settlement_with_Poland
-		text = Settlement with Poland
 		icon = GFX_focus_generic_polish_deal
 		cost = 10,00
 		prerequisite = {
@@ -200,8 +201,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_Referendum in East Prussia
-		text = Plebiscite in East Prussia
+		id = GER_Plebiscite_in_East_Prussia
 		icon = GFX_focus_generic_little_entente
 		cost = 10,00
 		prerequisite = {
@@ -213,7 +213,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Referendum_in_Austria
-		text = Referendum in Austria
 		icon = GFX_goal_generic_position_armies
 		cost = 10,00
 		prerequisite = {
@@ -229,7 +228,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Send_Ultimatum
-		text = Send Ultimatum
 		icon = GFX_goal_demand_sudetenland
 		cost = 10,00
 		prerequisite = {
@@ -240,12 +238,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_Demand _Memel
-		text = Demand Memel
+		id = GER_Demand_Memel
 		icon = GFX_goal_generic_demand_territory
 		cost = 10,00
 		prerequisite = {
-			focus = GER_Eastern_Claims
+			focus = GER_Send_Ultimatum
 		}
 		x = 9
 		y = 4
@@ -253,7 +250,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GRE_Crush_the_Habsburgs
-		text = Crush the Habsburgs
 		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10,00
 		prerequisite = {
@@ -268,32 +264,40 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_Befriend Ukraine
-		text = Befriend Ukraine
+		id = GER_Befriend_Ukraine
 		icon = GFX_goal_molotov_ribbentrop_pact
 		cost = 10,00
 		prerequisite = {
 			focus = GER_Eastern_Claims
 		}
-		x = 11
+		x = 12
 		y = 3
 
 	}
 	focus = {
-		id = GER_War_with_Russia
-		text = War with Russia
-		icon = GFX_goal_generic_major_war
+		id = GER_Befriend_Finland
+		icon = GFX_goal_molotov_ribbentrop_pact
 		cost = 10,00
 		prerequisite = {
-			focus = GER_Eastern_Claims
+			focus = GER_Befriend_Ukraine
 		}
-		x = 11
+		x = 12
 		y = 4
 
 	}
 	focus = {
+		id = GER_War_with_Russia
+		icon = GFX_goal_generic_major_war
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Befriend_Finland
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
 		id = GER_Berlin-Dresden_Highway
-		text = Berlin-Dresden Highway
 		icon = GFX_goal_generic_construction2
 		cost = 10,00
 		prerequisite = {
@@ -305,7 +309,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Frankfurt_Darmstadt_Highway
-		text = Frankfurt-Darmstadt Highway
 		icon = GFX_goal_generic_construction
 		cost = 10,00
 		prerequisite = {
@@ -317,7 +320,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Military_Industry
-		text = Military Industry
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10,00
 		prerequisite = {
@@ -330,7 +332,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Demand_Alsace-Lorraine
-		text = Demand Alsace-Lorraine
 		icon = GFX_goal_generic_territory_or_war
 		cost = 10,00
 		prerequisite = {
@@ -345,7 +346,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Demand_South_Tyrol
-		text = Demand South Tyrol
 		icon = GFX_goal_generic_political_pressure
 		cost = 10,00
 		prerequisite = {
@@ -358,7 +358,6 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Demand_Burgenland
-		text = Demand Burgenland
 		icon = GFX_goal_generic_more_territorial_claims
 		cost = 10,00
 		prerequisite = {
