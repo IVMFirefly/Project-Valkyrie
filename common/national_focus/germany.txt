@@ -7,6 +7,7 @@ focus_tree = {
 			tag = GER
 		}
 	}
+	
 	default = no
 	focus = {
 		id = GER_Support_Democrats
@@ -96,12 +97,12 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Western_Claims
 		}
-		x = 0
+		x = 1
 		y = 3
 
 	}
 	focus = {
-		id = GRE_Seek_Remilitarisation
+		id = GER_Seek_Remilitarisation
 		icon = GFX_goal_tripartite_pact
 		cost = 10,00
 		prerequisite = {
