@@ -896,7 +896,7 @@
  Roussillon:0 "Roussillon"
  Asturias:0 "Asturias"
  Suwalki:0 "Suwalki"
-  North Suwalki:0 " North Suwalki"
+ North Suwalki:0 " North Suwalki"
  Brest:0 "Brest"
  Katowice:0 "Katowice"
  East Friesland:0 "East Friesland"
@@ -904,3 +904,4 @@
  Gliwice:0 "Gliwice"
  STATE_863:0 "Pila"
  STATE_864:0 "Wschowa"
+ STATE_865:0 "Rhodesian Badlands"
