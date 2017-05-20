@@ -4,7 +4,7 @@ state={
 	name="Rwanda-Burundi"
 
 	history={
-		owner = GER
+		owner = BEL
 		buildings = {
 			infrastructure = 2
 

@@ -4,7 +4,7 @@ state={
 	name="Cameroon"
 
 	history={
-		owner = GER
+		owner = FRA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
