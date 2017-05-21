@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_DESC"
 	picture = "gfx/leaders/GER/ErichLudendorff.dds"
 	expire = "1965.1.1"
-	ideology = reactionarism
+	ideology = autocracy
 	traits = {
 		
 	}
