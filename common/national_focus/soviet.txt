@@ -19,8 +19,8 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_issue_propaganda
-		icon = GFX_goal_generic_propaganda
-		x = 5
+		icon = GFX_goal_support_communism
+		x = 1
 		y = 0
 		cost = 10
 		ai_will_do = { 
@@ -35,109 +35,8 @@ focus_tree = {
 				ideology = communism
 				popularity = 0.1
 			}
-		}
-	}
-	
-		focus = {
-		id = SOV_undermine_mensheviks
-		icon = GFX_goal_support_communism
-		prerequisite = { focus = SOV_issue_propaganda }
-		x = 7
-		y = 1
-		cost = 10
-		ai_will_do = { 
-			factor = 5
-		}
-		
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			add_popularity = {
-				ideology = socialism
-				popularity = -0.1
-			}
-			country_event = {
-				days = 1
-				id = soviet.menshevik.1
-			}
-		}
-	}
-	
-	focus = {
-		id = SOV_cooperate_mensheviks
-		icon = GFX_focus_generic_diplomatic_treaty
-		prerequisite = { focus = SOV_issue_propaganda }
-		mutually_exclusive = { focus = SOV_undermine_mensheviks }
-		x = 3
-		y = 1
-		cost = 10
-		ai_will_do = { 
-			factor = 0
-		}
-		
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			add_political_power = 50
-			add_popularity = {
-				ideology = socialism
-				popularity = 0.05
-			}
-			country_event = {
-				days = 1
-				id = soviet.menshevik.2
-			}
-		}
-	}
-	
-		focus = {
-		id = SOV_issue_propaganda
-		icon = GFX_goal_generic_propaganda
-		x = 5
-		y = 0
-		cost = 10
-		ai_will_do = { 
-			factor = 5
-		}
-		
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			add_political_power = 50
-			add_popularity = {
-				ideology = communism
-				popularity = 0.1
-			}
-		}
-	}
-	
-		focus = {
-		id = SOV_remove_opposition
-		icon = GFX_goal_support_communism
-		prerequisite = { focus = SOV_undermine_mensheviks }
-		x = 8
-		y = 2
-		cost = 10
-		ai_will_do = { 
-			factor = 5
-		}
-		
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			add_popularity = {
-				ideology = socialism
-				popularity = -0.2
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.05
-			}
-			country_event = {
-				days = 1
-				id = soviet.1
 		}
 	}
 	
 	continuous_focus_position = { x = 50 y = 1000 }
-}
+	}
