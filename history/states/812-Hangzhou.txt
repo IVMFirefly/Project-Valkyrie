@@ -4,9 +4,8 @@ state={
 	name="Hangzhou"
 
 	history={
-		owner = ICC
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = ICC
 		add_core_of = PRC
 		victory_points = {
 			7191 1 
