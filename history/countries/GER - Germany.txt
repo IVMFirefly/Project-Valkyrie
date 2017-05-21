@@ -102,6 +102,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Erich Ludendorff"
+	desc = "POLITICS_WILHELM_DESC"
+	picture = "gfx/leaders/GER/ErichLudendorff.dds"
+	expire = "1965.1.1"
+	ideology = reactionarism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "Adolf Hitler"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Portrait_Germany_Adolf_Hitler.dds"
