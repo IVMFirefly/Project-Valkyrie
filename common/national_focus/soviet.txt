@@ -3,16 +3,10 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
 		modifier = {
 			add = 10
 			tag = SOV
 		}
-
-		#modifier = {
-		#	add = 10
-		#	original_tag = SOV
-		#}
 	}
 	
 	default = no
@@ -20,23 +14,99 @@ focus_tree = {
 	focus = {
 		id = SOV_issue_propaganda
 		icon = GFX_goal_support_communism
-		x = 1
+		cost = 10.00
+		x = 6
 		y = 0
-		cost = 10
-		ai_will_do = { 
+			ai_will_do = {
+					factor = 5
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_political_power = 50
+					add_popularity = {
+							ideology = communism
+							popularity = 0.1
+						}
+				}
+
+	}
+	
+	focus = {
+		id = SOV_menshevik_cooperate
+		icon = GFX_goal_tripartite_pact
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_issue_propaganda
+		}
+		mutually_exclusive = {
+			focus = SOV_undermine_mensheviks
+		}
+		x = 4
+		y = 1
+		ai_will_do = {
 			factor = 5
 		}
-		
 		available_if_capitulated = yes
-		
 		completion_reward = {
 			add_political_power = 50
 			add_popularity = {
-				ideology = communism
-				popularity = 0.1
+				ideology = socialism
+				popularity = 0.2
 			}
 		}
 	}
 	
-	continuous_focus_position = { x = 50 y = 1000 }
+	focus = {
+		id = SOV_undermine_mensheviks
+		text = SOV_undermine_mensheviks
+		icon = GFX_goal_continuous_suppression
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_issue_propaganda
+		}
+		mutually_exclusive = {
+			focus = SOV_menshevik_cooperate
+		}
+		x = 8
+		y = 1
+		ai_will_do = {
+			factor = 5
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = socialism
+				popularity = -0.1
+			}
+			country_event = {
+				days = 1
+				id = soviet.menshevik.1
+			}
+		}
 	}
+	
+	focus = {
+		id = SOV_remove_opposition
+		text = SOV_remove_opposition
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_undermine_mensheviks
+		}
+		x = 9
+		y = 2
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = socialism
+				popularity = -0.2
+			}
+		}
+	}
+}

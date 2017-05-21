@@ -1,4 +1,9 @@
 ﻿l_english:
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
+ NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "The branches are mutually exclusive."
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC:0 "Mutually exclusive with"
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY:0 "$FOCUS|Y$"
+ NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "This focus currently has no effect. Changes in the world situation may affect this."
+ ###Soviet National Focus###
  SOV_issue_propaganda:0 "Issue Bolshevik Propaganda"
  SOV_issue_propaganda_desc:0 "Following the invasion of the Japanese and Kornilov's White Hundreds, the Bolshevik party has become increasingly popular for its heroic actions, and the inactive Duma ever less popular. Now is a perfect opportunity to turn the people to our side, and issue Bolshevik party propaganda."
