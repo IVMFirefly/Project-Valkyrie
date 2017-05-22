@@ -4,7 +4,12 @@ state={
 	name="STATE_541"
 	manpower = 462000
 	
-	state_category = wasteland
+	state_category = pastoral
+	
+	resources={
+		rubber=10
+		steel=4
+	}
 
 	history={
 		owner = SAF
@@ -14,6 +19,7 @@ state={
 		victory_points = {
 			4879 1
 		}
+		add_core_of = SAF
 	}
 
 	provinces={
