@@ -44,7 +44,7 @@ set_politics = {
 
 	parties = {
 	    conservatism = {
-			popularity = 5
+			popularity = 13
 		}
 
 		national_integralism = {
@@ -52,19 +52,19 @@ set_politics = {
 		}
 
 		liberalism = {
-			popularity = 5
-		}
-		
-		communism = {
-			popularity = 70
-		}
-		
-		socialism = {
 			popularity = 15
 		}
 		
+		communism = {
+			popularity = 40
+		}
+		
+		socialism = {
+			popularity = 30
+		}
+		
 		reactionarism = {
-			popularity = 5
+			popularity = 2
 		}
 		
 	}
