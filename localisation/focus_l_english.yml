@@ -7,4 +7,9 @@
  ###Soviet National Focus###
  SOV_issue_propaganda:0 "Issue Bolshevik Propaganda"
  SOV_issue_propaganda_desc:0 "Following the invasion of the Japanese and Kornilov's White Hundreds, the Bolshevik party has become increasingly popular for its heroic actions, and the inactive Duma ever less popular. Now is a perfect opportunity to turn the people to our side, and issue Bolshevik party propaganda."
- 
+ SOV_undermine_mensheviks:0 "Undermine the Mensheviks"
+ SOV_undermine_mensheviks_desc:0 "The Menshevik Party has long opposed the Bolsheviks. They may deny it, but they are enemies of the revolution, and are the final obstacle standing in the way of a prosperous Bolshevik regime. We must undermine the Menshevik party if we wish to continue forward with the Revolution!"
+ SOV_cooperate_mensheviks:0 "Cooperate with the Mensheviks"
+ SOV_cooperate_mensheviks_desc:0 "To further the cause of the Revolution, we must cooperate with the Mensheviks rather than oppose them. Perhaps the Mensheviks would be willing to cooperate with the Bolsheviks under the right terms?"
+ SOV_remove_opposition:0 "Remove Opposition From the Soviets"
+ SOV_remove_opposition_desc:0 "Now that the Bolsheviks have a strong hold on the Soviets, and the Mensiviks are weaning, now is the time to strike and remove all non-bolshevik opposition from the Soviets" 
