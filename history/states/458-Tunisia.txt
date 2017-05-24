@@ -2,14 +2,14 @@
 state={
 	id=458
 	name="STATE_458"
-	manpower = 1000000
+	manpower = 983865
 	state_category = town
 	resources={
 		steel=8
 	}
 
 	history={
-		owner = LBA
+		owner = FRA
 		victory_points = {
 			11969 10 
 		}
@@ -23,8 +23,8 @@ state={
 			9994 = {
 				naval_base = 8
 			}
+			add_core_of = LBA
 		}
-		add_core_of = LBA
 	}
 
 	provinces={
