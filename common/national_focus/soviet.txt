@@ -96,10 +96,28 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_undermine_menshevik
 		}
-		
 		x = 11
 		y = 2
 
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = socialism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.05
+			}
+		}
 	}
 	
 	continuous_focus_position = { x = 50 y = 1000 }
