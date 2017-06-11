@@ -1,7 +1,7 @@
 
-state = {
-	id = 865
-	name = "Tunceli"
+state={
+	id=865
+	name="Tunceli"
 
 	history={
 		owner = TUR
@@ -14,10 +14,10 @@ state = {
 
 	}
 
-	provinces = {
-		876 9860 9954 11797 
+	provinces={
+		876 9860 9954 11797 11853 
 	}
-	manpower = 150000
-	buildings_max_level_factor = 1.000
-	state_category = rural
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

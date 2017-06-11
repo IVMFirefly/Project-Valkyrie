@@ -19,7 +19,7 @@ set_politics = {
 	
 	parties = {
 	    conservatism = {
-			popularity = 20
+			popularity = 15
 		}
 
 		national_integralism = {
@@ -31,11 +31,11 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 29
+			popularity = 19
 		}
 		
 		socialism = {
-			popularity = 13
+			popularity = 28
 		}
 		
 		reactionarism = {
@@ -44,15 +44,10 @@ set_politics = {
 		
 	}
 	
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
-}
-
-set_autonomy = {
-	target = SLO
-	autonomous_state =  autonomy_integrated_puppet
 }
 
 create_country_leader = {

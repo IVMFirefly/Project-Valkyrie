@@ -23,7 +23,7 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 255 100 75 }
+BEL = { color 	 = rgb { 193 171 8  }
 		color_ui = rgb { 251 222 10 }
 	  }
 HOL = {	color = rgb { 203 138 74 }
@@ -543,10 +543,6 @@ SHA = {
     color = rgb { 205 205 255 }
 	color_ui = rgb { 138 155 116 }
 }
-CIR = {
-    color = rgb { 35 175 35 }
-	color_ui = rgb { 138 155 116 }
-}
 KAZ = {
     color = rgb { 30 50 255 }
 	color_ui = rgb { 138 155 116 }
@@ -561,10 +557,6 @@ RUS = {
 }
 ISR = {
 	color = rgb { 40  140  255 }
-	color_ui = rgb { 255  204  204 }
-}
-DON = {
-	color = rgb { 150  150  0 }
 	color_ui = rgb { 255  204  204 }
 }
 AME = {

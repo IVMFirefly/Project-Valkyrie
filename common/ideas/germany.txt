@@ -2,7 +2,7 @@ ideas = {
 
     country = {
 	
-        Overconfident_general_staff = {
+        Political_Turmoil = {
 	
 			allowed = {
 				original_tag = GER
@@ -15,20 +15,86 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_victors_of_ww1
+			picture = FRA_scw_intervention_republicans_focus
 			
-			research_bonus = {
-				land_doctrine = -0.66
-			}
 			modifier = {
-				conscription = -0.003
+				drift_defence_factor = -0.2
+				unity_factor = -0.15
+				political_power_gain = -0.25
 			}
 		}
 		
+		General_Lawlessness = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_volunteer_expedition_bonus
+
+			
+			modifier = {
+				national_integralism_drift = 0.05
+				communism_drift = 0.02
+			}
+		}
 		
+		Surpressed_Communist_Movement = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = trotskyite_plot
+
+			
+			modifier = {
+				communism_drift = 0.02
+				unity_factor = -0.05
+			}
+		}
 		
+		Unsurpressed_Communist_Movement = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = trotskyite_plot_purged
+
+			
+			modifier = {
+				communism_drift = 0.05
+			}
+		}
 		
-		
+		Economic_Recession = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+
+			
+			modifier = {
+				consumer_goods_factor = 0.12
+				unity_factor = -0.05
+				production_factory_max_efficiency_factor = -0.20
+				industrial_capacity_factory = -0.2
+				research_time_factor = 0.05
+			}
+		}
+				
+			
 }
 
 	political_advisor = {

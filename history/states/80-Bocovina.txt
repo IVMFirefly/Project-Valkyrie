@@ -14,7 +14,6 @@ state={
 		}
 		add_core_of = ROM
 		add_core_of = UKR
-		add_claim_by = POL
 	}
 	provinces={
 		577 3407 9548

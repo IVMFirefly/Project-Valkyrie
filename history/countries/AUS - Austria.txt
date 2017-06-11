@@ -44,18 +44,15 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 2
-		}
-		
-		socialism = {
 			popularity = 5
 		}
 		
-		reactionarism = {
-			popularity = 40
+		socialism = {
+			popularity = 10
 		}
-		autocratism = {
-			popularity = 3
+		
+		reactionarism = {
+			popularity = 35
 		}
 	}
 	

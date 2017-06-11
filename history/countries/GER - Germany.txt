@@ -41,17 +41,15 @@ set_technology = {
 }
 
 add_ideas = {
-Overconfident_general_staff
-}
-
-set_autonomy = {
-	target = BEL
-	autonomous_state =  autonomy_integrated_puppet
+Political_Turmoil
+General_Lawlessness
+Surpressed_Communist_Movement
+Economic_Recession
 }
 
 set_research_slots = 4
 set_convoys = 200
-set_national_unity = 0.9
+set_national_unity = 0.70
 
 set_politics = {
 
@@ -97,7 +95,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = authoritarian_conservatism
 	traits = {
-		glorious_leader
+	
 	}
 }
 

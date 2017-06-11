@@ -1,7 +1,7 @@
 
-state = {
-	id = 755
-	name = "STATE_755"
+state={
+	id=755
+	name="STATE_755"
 
 	history={
 		owner = SPR
@@ -24,9 +24,9 @@ state = {
 	}
 
 	provinces={
-		9764
+		872 897 3898 3899 6812 6836 6865 6966 9797 
 	}
-	manpower = 1000000
-	buildings_max_level_factor = 1.000
-	state_category = city
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
 }

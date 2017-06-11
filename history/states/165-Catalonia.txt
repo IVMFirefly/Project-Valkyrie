@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = SPR
-                victory_points = {
+		victory_points = {
 			6836 1 
 		}
 		buildings = {
@@ -21,9 +21,9 @@ state={
 	}
 
 	provinces={
-		854 6927 9764 9824 11779 13213
+		854 6927 9764 9764 9824 11779 13213 
 	}
-	manpower = 1636537
+	manpower=1636537
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

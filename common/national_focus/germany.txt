@@ -10,39 +10,65 @@ focus_tree = {
 	
 	default = no
 	focus = {
-		id = GER_Support_Democrats
+		id = GER_Enforce_the_Rule_of_Law
 		icon = GFX_goal_support_democracy
 		cost = 10
-		mutually_exclusive = {
-			focus = GER_Support_Integralists
-		}
-		x = 3
+		x = 2
 		y = 0
 
 	}
 	focus = {
-		id = GER_Support_Commnists
-		icon = GFX_focus_generic_join_comintern
+		id = GER_Outlaw_Paramilitary_Organisations
+		icon = GFX_focus_generic_anti_fascist_diplomacy
 		cost = 10
-		mutually_exclusive = {
-			focus = GER_Support_Integralists
-		}
-		x = 7
+		x = 4
 		y = 0
-
-	}
+        completion_reward = { 
+		remove_ideas = General_Lawlessness
+	}}
+	
 	focus = {
-		id = GER_Support_Integralists
-		icon = GFX_goal_support_fascism
+		id = GER_Legalise_Communist_Parties
+		icon = GFX_focus_generic_soviet_politics
 		cost = 10
-		mutually_exclusive = {
-			focus = GER_Support_Democrats
-			focus = GER_Support_Commnists
+		x = 6
+		y = 0
+		completion_reward = { 
+		remove_ideas = Surpressed_Communist_Movement
+		add_ideas = Unsurpressed_Communist_Movement
+
+	}}
+	
+	focus = {
+		id = GER_Designate_a_Successor
+		icon = GFX_goal_anschluss
+		cost = 10
+		x = 8
+		y = 0
+		completion_reward = { 
+		GER = {
+				country_event = { id = germany.1 days = 1 }
+			}
+
+	}}
+	NOT = { has_idea = FRA_strengthen_government_support_focus }
+	focus = {
+		id = GER_Heimat_Reclamation
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10
+		available = { NOT = { has_idea = Political_Turmoil } }
+		prerequisite = {
+			focus = GER_Enforce_the_Rule_of_Law
+			focus = GER_Outlaw_Paramilitary_Organisations
+			focus = GER_Legalise_Communist_Parties
+			focus = GER_Designate_a_Successor
 		}
 		x = 5
-		y = 0
-
-	}
+		y = 1
+        completion_reward = { 
+		add_political_power = 100
+	}}	
+	
 	focus = {
 		id = GER_Puppet_Denmark
 		icon = GFX_goal_generic_wolf_pack
@@ -67,24 +93,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_Heimat
-		icon = GFX_focus_generic_support_the_left_right
-		cost = 10
-		prerequisite = {
-			focus = GER_Support_Integralists
-			focus = GER_Support_Democrats
-			focus = GER_Support_Commnists
-		}
-		x = 5
-		y = 1
-
-	}
-	focus = {
 		id = GER_Western_Claims
 		icon = GFX_focus_generic_strike_at_democracy2
 		cost = 10
 		prerequisite = {
-			focus = GER_Heimat
+			focus = GER_Heimat_Reclamation
 		}
 		x = 2
 		y = 2
@@ -169,7 +182,7 @@ focus_tree = {
 		icon = GFX_goal_generic_alliance
 		cost = 10
 		prerequisite = {
-			focus = GER_Heimat
+			focus = GER_Heimat_Reclamation
 		}
 		x = 8
 		y = 2
@@ -297,40 +310,7 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
-		id = GER_Berlin-Dresden_Highway
-		icon = GFX_goal_generic_construction2
-		cost = 10
-		prerequisite = {
-			focus = GER_Prepare_Autobahn_Project
-		}
-		x = 14
-		y = 1
 
-	}
-	focus = {
-		id = GER_Frankfurt_Darmstadt_Highway
-		icon = GFX_goal_generic_construction
-		cost = 10
-		prerequisite = {
-			focus = GER_Prepare_Autobahn_Project
-		}
-		x = 16
-		y = 1
-
-	}
-	focus = {
-		id = GER_Military_Industry
-		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10
-		prerequisite = {
-			focus = GER_Frankfurt_Darmstadt_Highway
-			focus = GER_Berlin-Dresden_Highway
-		}
-		x = 15
-		y = 2
-
-	}
 	focus = {
 		id = GER_Demand_Alsace-Lorraine
 		icon = GFX_goal_generic_territory_or_war
@@ -369,4 +349,39 @@ focus_tree = {
 		y = 6
 
 	}
-}
+
+	focus = {
+		id = GER_Berlin-Dresden_Highway
+		icon = GFX_goal_generic_construction2
+		cost = 10
+		prerequisite = {
+			focus = GER_Prepare_Autobahn_Project
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = GER_Frankfurt_Darmstadt_Highway
+		icon = GFX_goal_generic_construction
+		cost = 10
+		prerequisite = {
+			focus = GER_Prepare_Autobahn_Project
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = GER_Military_Industry
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = GER_Frankfurt_Darmstadt_Highway
+			focus = GER_Berlin-Dresden_Highway
+		}
+		x = 15
+		y = 2
+
+	}
+}	

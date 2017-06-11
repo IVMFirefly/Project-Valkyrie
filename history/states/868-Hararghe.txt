@@ -1,0 +1,22 @@
+
+state={
+	id=868
+	name="Hararghe"
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ETH
+
+	}
+
+	provinces={
+		4995 7980 10775 12714 12757 12812
+	}
+	manpower= 1000000
+	buildings_max_level_factor=1.000
+	state_category= pastoral
+}

@@ -20,9 +20,9 @@ state={
 	}
 
 	provinces={
-		3916 5014 6826 8123 10106 10793 10804 10811 
+		3916 5014 6826 10106 10793 10804 10811 
 	}
-	manpower=1182741
+	manpower=1032741
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -1,1 +1,30 @@
-﻿
+﻿add_namespace = germany
+
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_news_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = { # Halder
+		name = germany.1.a
+		ai_chance = { factor = 25 }
+	}
+	option = { # von Manstein
+		name = germany.1.b
+		ai_chance = { factor = 15 }
+	}
+	option = { # Wilhelm II
+		name = germany.1.c
+		ai_chance = { factor = 10 }
+	}
+	option = { # Wilhelm III
+		name = germany.1.e
+		ai_chance = { factor = 15 }
+	}
+}
+
+
+

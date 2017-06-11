@@ -19,7 +19,6 @@ bookmarks = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = reactionarism
 			ideas = {
-			Overconfident_general_staff
 			}
 			focuses = {
 			}
@@ -57,9 +56,9 @@ bookmarks = {
 			focuses = {
 			}			
 		}
-		"USA"={
+		"JAP"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = conservatism
+			ideology = reactionarism
 			ideas = {
 			}
 			focuses = {
@@ -72,6 +71,17 @@ bookmarks = {
 
 
 		# minors from DLC ####
+		"AME"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = national_integralism
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		
 		"CHI"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
@@ -83,10 +93,10 @@ bookmarks = {
 			}
 		}
 		
-		"TUR"={
+		"HUN"={
 			minor = yes
-			history = "AST_GATHERING_STORM_DESC"
-			ideology = reactionarism
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = socialism
 			ideas = {
 				
 			}
@@ -104,16 +114,28 @@ bookmarks = {
 			}
 		}
 		
-		"HUN"={
+		"TUR"={
 			minor = yes
 			history = "NZL_GATHERING_STORM_DESC"
-			ideology = reactionarism
+			ideology = national_integralism
 			ideas = {
 				
 			}
 			focuses = {
 			}
 		}
+		
+		"UKR"={
+			minor = yes
+			history = "NZL_GATHERING_STORM_DESC"
+			ideology = national_integralism
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		
 		"SPR"={
 			minor = yes
 			history = "SAF_GATHERING_STORM_DESC"
@@ -123,16 +145,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"RAJ"={
-			minor = yes
-			history = "RAJ_GATHERING_STORM_DESC"
-			ideology = autocratism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"GRE"={
+		"SYR"={
 			minor = yes
 			history = "RAJ_GATHERING_STORM_DESC"
 			ideology = reactionarism
