@@ -75,8 +75,8 @@ guiTypes = {
 		containerWindowType = {
 			name = "political_pie_chart"
 			position = { x= 270 y = 304 }
-			size = { width=100 height=140 }
-			clipping = yes
+			size = { width=100 height=100 }
+			clipping = no
 
 			iconType = {
 				name = "chart"
@@ -750,7 +750,7 @@ guiTypes = {
 			text = "party name"
 			fixedsize = yes
 			maxWidth = 170
-			maxHeight = 30
+			maxHeight = 18
 		}
 	}
 	

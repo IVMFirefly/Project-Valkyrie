@@ -5,7 +5,7 @@ ideas = {
 		free_market_law = {
 			
 			
-			available = {
+			allowed = {
 				
 				OR = {
 				
