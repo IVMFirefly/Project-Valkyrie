@@ -9,11 +9,14 @@ focus_tree = {
 	}
 	
 	default = no
+	
+	############################ INTERNAL ############################
+	
 	focus = {
 		id = GER_Enforce_the_Rule_of_Law
 		icon = GFX_goal_support_democracy
 		cost = 10
-		x = 2
+		x = 1
 		y = 0
 
 	}
@@ -21,7 +24,7 @@ focus_tree = {
 		id = GER_Outlaw_Paramilitary_Organisations
 		icon = GFX_focus_generic_anti_fascist_diplomacy
 		cost = 10
-		x = 4
+		x = 3
 		y = 0
         completion_reward = { 
 		remove_ideas = General_Lawlessness
@@ -31,7 +34,7 @@ focus_tree = {
 		id = GER_Legalise_Communist_Parties
 		icon = GFX_focus_generic_soviet_politics
 		cost = 10
-		x = 6
+		x = 5
 		y = 0
 		completion_reward = { 
 		remove_ideas = Surpressed_Communist_Movement
@@ -43,7 +46,7 @@ focus_tree = {
 		id = GER_Designate_a_Successor
 		icon = GFX_goal_anschluss
 		cost = 10
-		x = 8
+		x = 7
 		y = 0
 		completion_reward = { 
 		GER = {
@@ -51,20 +54,58 @@ focus_tree = {
 			}
 
 	}}
-	NOT = { has_idea = FRA_strengthen_government_support_focus }
+	
+	focus = {
+		id = GER_United_Secret_Police
+		icon = GFX_goal_anschluss
+		cost = 10
+		x = 3
+		y = 1
+		completion_reward = { 
+
+	}}
+	
+	focus = {
+		id = GER_Purge_the_SA
+		icon = GFX_goal_anschluss
+		prerequisite = {
+			focus = GER_United_Secret_Police
+		}
+		mutually_exclusive = {
+			focus = GER_Purge_the_SS
+		}
+		cost = 10
+		x = 2
+		y = 2
+		completion_reward = { 
+
+	}}
+	
+	focus = {
+		id = GER_Purge_the_SS
+		icon = GFX_goal_anschluss
+		prerequisite = {
+			focus = GER_United_Secret_Police
+		}
+		mutually_exclusive = {
+			focus = GER_Purge_the_SA
+		}
+		cost = 10
+		x = 4
+		y = 2
+		completion_reward = { 
+
+	}}
+	
+	############################ EXTERNAL ############################
+	
 	focus = {
 		id = GER_Heimat_Reclamation
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10
 		available = { NOT = { has_idea = Political_Turmoil } }
-		prerequisite = {
-			focus = GER_Enforce_the_Rule_of_Law
-			focus = GER_Outlaw_Paramilitary_Organisations
-			focus = GER_Legalise_Communist_Parties
-			focus = GER_Designate_a_Successor
-		}
-		x = 5
-		y = 1
+		x = 15
+		y = 0
         completion_reward = { 
 		add_political_power = 100
 	}}	
@@ -80,18 +121,11 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_North_Schleswig
 		}
-		x = 6
-		y = 5
+		x = 16
+		y = 4
 
 	}
-	focus = {
-		id = GER_Prepare_Autobahn_Project
-		icon = GFX_goal_generic_production2
-		cost = 10
-		x = 15
-		y = 0
-
-	}
+	
 	focus = {
 		id = GER_Western_Claims
 		icon = GFX_focus_generic_strike_at_democracy2
@@ -99,8 +133,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Heimat_Reclamation
 		}
-		x = 2
-		y = 2
+		x = 12
+		y = 1
 
 	}
 	focus = {
@@ -110,8 +144,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Western_Claims
 		}
-		x = 1
-		y = 3
+		x = 10
+		y = 2
 
 	}
 	focus = {
@@ -121,8 +155,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Western_Claims
 		}
-		x = 3
-		y = 3
+		x = 13
+		y = 2
 
 	}
 	focus = {
@@ -135,8 +169,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_Demand_Alsace-Lorraine
 		}
-		x = 2
-		y = 5
+		x = 12
+		y = 4
 
 	}
 	
@@ -150,8 +184,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_Demand_Alsace-Lorraine
 		}
-		x = 3
-		y = 4
+		x = 13
+		y = 3
 
 	}
 	
@@ -162,8 +196,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Western_Claims
 		}
-		x = 5
-		y = 3
+		x = 15
+		y = 2
 
 	}
 	focus = {
@@ -173,8 +207,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Plebiscite_in_Saarland
 		}
-		x = 1
-		y = 4
+		x = 10
+		y = 3
 
 	}
 	focus = {
@@ -184,8 +218,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Heimat_Reclamation
 		}
-		x = 8
-		y = 2
+		x = 18
+		y = 1
 
 	}
 	focus = {
@@ -199,8 +233,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_Puppet_Denmark
 		}
-		x = 4
-		y = 5
+		x = 14
+		y = 4
 
 	}
 	focus = {
@@ -210,8 +244,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Eastern_Claims
 		}
-		x = 7
-		y = 3
+		x = 17
+		y = 2
 
 	}
 	focus = {
@@ -221,8 +255,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Settlement_with_Poland
 		}
-		x = 7
-		y = 4
+		x = 17
+		y = 3
 
 	}
 	focus = {
@@ -236,8 +270,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GRE_Crush_the_Habsburgs
 		}
-		x = 8
-		y = 5
+		x = 18
+		y = 4
 
 	}
 	focus = {
@@ -247,8 +281,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Eastern_Claims
 		}
-		x = 9
-		y = 3
+		x = 19
+		y = 2
 
 	}
 	focus = {
@@ -258,8 +292,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Send_Ultimatum
 		}
-		x = 9
-		y = 4
+		x = 19
+		y = 3
 
 	}
 	focus = {
@@ -273,8 +307,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_Referendum_in_Austria
 		}
-		x = 10
-		y = 5
+		x = 20
+		y = 4
 
 	}
 	focus = {
@@ -284,8 +318,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Eastern_Claims
 		}
-		x = 12
-		y = 3
+		x = 22
+		y = 2
 
 	}
 	focus = {
@@ -295,8 +329,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Befriend_Ukraine
 		}
-		x = 12
-		y = 4
+		x = 22
+		y = 3
 
 	}
 	focus = {
@@ -306,8 +340,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Befriend_Finland
 		}
-		x = 12
-		y = 5
+		x = 22
+		y = 4
 
 	}
 
@@ -321,8 +355,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_Befriend_France
 		}
-		x = 0
-		y = 5
+		x = 10
+		y = 4
 
 	}
 	focus = {
@@ -333,8 +367,8 @@ focus_tree = {
 			focus = GRE_Crush_the_Habsburgs
 			focus = GER_Referendum_in_Austria
 		}
-		x = 10
-		y = 6
+		x = 20
+		y = 5
 
 	}
 	focus = {
@@ -345,8 +379,17 @@ focus_tree = {
 			focus = GRE_Crush_the_Habsburgs
 			focus = GER_Referendum_in_Austria
 		}
-		x = 8
-		y = 6
+		x = 18
+		y = 5
+
+	}
+	
+	focus = {
+		id = GER_Prepare_Autobahn_Project
+		icon = GFX_goal_generic_production2
+		cost = 10
+		x = 25
+		y = 0
 
 	}
 
@@ -357,7 +400,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Prepare_Autobahn_Project
 		}
-		x = 14
+		x = 26
 		y = 1
 
 	}
@@ -368,7 +411,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Prepare_Autobahn_Project
 		}
-		x = 16
+		x = 24
 		y = 1
 
 	}
@@ -380,7 +423,7 @@ focus_tree = {
 			focus = GER_Frankfurt_Darmstadt_Highway
 			focus = GER_Berlin-Dresden_Highway
 		}
-		x = 15
+		x = 25
 		y = 2
 
 	}

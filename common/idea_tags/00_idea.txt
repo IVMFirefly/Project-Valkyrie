@@ -15,19 +15,19 @@ idea_categories = {
 	}
 	Traits = {
 	    slot = popularity
-	    slot = literacy
-		slot = mechanisation
+	    slot = education
+		slot = agriculture
         slot = army_spending
-		slot = political_advisor
-		slot = political_advisor
+		slot = espionage_spending
+		slot = propaganda_spending
 		
 	}
 	government = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = internal_policy
-		slot = citizenship_policy
+		slot = political_advisor
+		slot = political_advisor
 		slot = political_advisor
 		
 		cost = 150

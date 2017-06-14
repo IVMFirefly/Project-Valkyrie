@@ -1,9 +1,9 @@
 ideas = {
 
-	literacy = { 
+	agriculture = { 
 		law = yes
  
-		less_than_10% = {
+		level_1 = {
 	    
 			available = { always = no }
 			allowed = {}			
@@ -12,14 +12,14 @@ ideas = {
 			
 			
 			modifier = {
-				research_time_factor = 0.3
+			conscription_factor = -0.7
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_research_bonus
+			picture = generic_manpower_bonus
 		}
 		
-		less_than_30% = {
+		level_2 = {
 		
 			available = { always = no }
 			allowed = {}			
@@ -27,88 +27,83 @@ ideas = {
 			level = 6
 			
 			modifier = {
-				research_time_factor = 0.2
+			conscription_factor = -0.5
 			}
 					
 			cancel_if_invalid = no
-			picture = generic_research_bonus
+			picture = generic_manpower_bonus
 		}
 		
-		less_than_50% = {
-		picture = generic_research_bonus
+		level_3 = {
 			available = { always = no }
 			allowed = {}	
 			removal_cost = -1
 			level = 5
 
 			modifier = {
-				research_time_factor = 0.1
+			conscription_factor = -0.275
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_research_bonus
+			picture = generic_manpower_bonus
 		}
 		
-		less_than_65% = {
-		picture = generic_research_bonus
+		level_4 = {
 		    available = { always = no }
 			allowed = {}
 			removal_cost = -1
 			level = 4
 			
 			modifier = {
-				research_time_factor = 0.05
+			conscription_factor = -0.15
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_research_bonus
+			picture = generic_manpower_bonus
 		}
 		
-		less_than_75% = {
-		picture = generic_research_bonus
+		level_5 = {
 			available = { always = no }
 			allowed = {}
 			removal_cost = -1
 			level = 3
 
 			modifier = {
+			conscription_factor = -0.08
 				
 			}
 			
 			default = yes
 			cancel_if_invalid = no
-			picture = generic_research_bonus
+			picture = generic_manpower_bonus
 
 		}
 		
-		less_than_90% = {
-		picture = generic_research_bonus
+		level_6 = {
 			available = { always = no }
 			allowed = {}
 			removal_cost = -1
 			level = 2
 			
 			modifier = {
-	           research_time_factor = -0.05
+	           conscription_factor = -0.03
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_research_bonus
+			picture = generic_manpower_bonus
 		}
 		
-		over_90% = {
-		picture = generic_research_bonus
+		level_7 = {
 			available = { always = no }
 			allowed = {}
 			removal_cost = -1
 			level = 1
 
 			modifier = {
-			   research_time_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_research_bonus
+			picture = generic_manpower_bonus
 		}
 	}
 }

@@ -1,9 +1,9 @@
 ideas = {
 
-	mechanisation = { 
+	education = { 
 		law = yes
  
-		abysmal_mechanisation = {
+		level_1 = {
 	    
 			available = { always = no }
 			allowed = {}			
@@ -12,14 +12,14 @@ ideas = {
 			
 			
 			modifier = {
-			conscription_factor = -0.7
+				research_time_factor = 0.3
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_manpower_bonus
+			picture = generic_research_bonus
 		}
 		
-		very_low_mechanisation = {
+		level_2 = {
 		
 			available = { always = no }
 			allowed = {}			
@@ -27,14 +27,14 @@ ideas = {
 			level = 6
 			
 			modifier = {
-			conscription_factor = -0.55
+				research_time_factor = 0.2
 			}
 					
 			cancel_if_invalid = no
-			picture = generic_manpower_bonus
+			picture = generic_research_bonus
 		}
 		
-		low_mechanisation = {
+		level_3 = {
 		picture = generic_research_bonus
 			available = { always = no }
 			allowed = {}	
@@ -42,14 +42,14 @@ ideas = {
 			level = 5
 
 			modifier = {
-			conscription_factor = -0.4
+				research_time_factor = 0.1
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_manpower_bonus
+			picture = generic_research_bonus
 		}
 		
-		average_mechanisation = {
+		level_4 = {
 		picture = generic_research_bonus
 		    available = { always = no }
 			allowed = {}
@@ -57,14 +57,14 @@ ideas = {
 			level = 4
 			
 			modifier = {
-			conscription_factor = -0.3
+				research_time_factor = 0.05
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_manpower_bonus
+			picture = generic_research_bonus
 		}
 		
-		high_mechanisation = {
+		level_5 = {
 		picture = generic_research_bonus
 			available = { always = no }
 			allowed = {}
@@ -72,17 +72,16 @@ ideas = {
 			level = 3
 
 			modifier = {
-			conscription_factor = -0.2
 				
 			}
 			
 			default = yes
 			cancel_if_invalid = no
-			picture = generic_manpower_bonus
+			picture = generic_research_bonus
 
 		}
 		
-		very_high_mechanisation = {
+		level_6 = {
 		picture = generic_research_bonus
 			available = { always = no }
 			allowed = {}
@@ -90,14 +89,14 @@ ideas = {
 			level = 2
 			
 			modifier = {
-	           conscription_factor = -0.1
+	           research_time_factor = -0.02
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_manpower_bonus
+			picture = generic_research_bonus
 		}
 		
-		excellent_mechanisation = {
+		level_7 = {
 		picture = generic_research_bonus
 			available = { always = no }
 			allowed = {}
@@ -105,10 +104,11 @@ ideas = {
 			level = 1
 
 			modifier = {
+			   research_time_factor = -0.05
 			}
 			
 			cancel_if_invalid = no
-			picture = generic_manpower_bonus
+			picture = generic_research_bonus
 		}
 	}
 }
