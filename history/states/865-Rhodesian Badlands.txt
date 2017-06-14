@@ -1,20 +1,22 @@
+
 state={
 	id=866
 	name="Rhodesian Badlands"
-	provinces={
-		1846 2255 5221 10594 10930 12908 12986 13173
-	}
-	manpower=3877
-	buildings_max_level_factor=1.000
-	
-	state_category = pastoral
-	
+
 	history={
 		owner = ENG
 		buildings = {
 			infrastructure = 2
 			air_base = 0
+
 		}
-		
+
 	}
+
+	provinces={
+		1846 2255 5221 10594 10930 12908 12986 13173 
+	}
+	manpower=3877
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
