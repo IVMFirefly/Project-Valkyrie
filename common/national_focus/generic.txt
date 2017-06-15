@@ -4,17 +4,18 @@ focus_tree = {
 		factor = 1
 	}
 	default = yes
+	#########
+	#TOP ROWS
+	#########
 	focus = {
 		id = army_reform
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 10
 		x = 26
 		y = 0
-		
 		completion_reward = {
 			army_experience = 25
 		}
-
 	}
 	focus = {
 		id = political_effort
@@ -22,7 +23,9 @@ focus_tree = {
 		cost = 10
 		x = 8
 		y = 0
-
+		completion_reward = {
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = navy_reform
@@ -44,7 +47,6 @@ focus_tree = {
 		completion_reward = {
 			air_experience = 25
 		}
-
 	}
 	focus = {
 		id = build_industry
@@ -52,8 +54,18 @@ focus_tree = {
 		cost = 10
 		x = 18
 		y = 0
-
+		completion_reward = {
+		add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 0.5
+					uses = 1
+					category = industry
+				}
+		}
 	}
+	###############
+	#POLITICAL TREE
+	###############
 	focus = {
 		id = extremism
 		icon = GFX_goal_continuous_suppression
@@ -66,7 +78,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 1
-
+		#NATIONAL SPIRIT HERE
 	}
 	focus = {
 		id = the_revolution
@@ -77,7 +89,7 @@ focus_tree = {
 		}
 		x = 3
 		y = 2
-
+		#NATIONAL SPIRIT HERE
 	}
 	focus = {
 		id = different_approach
@@ -88,7 +100,7 @@ focus_tree = {
 		}
 		x = 5
 		y = 2
-
+		#NATIONAL SPIRIT HERE
 	}
 	focus = {
 		id = country_above_all
@@ -100,7 +112,10 @@ focus_tree = {
 		}
 		x = 4
 		y = 3
-
+		completion_reward = {
+			add_national_unity = 0.05
+			
+		}
 	}
 	focus = {
 		id = our_own_initiative
@@ -165,7 +180,7 @@ focus_tree = {
 		}
 		x = 5
 		y = 5
-
+	
 	}
 	focus = {
 		id = intervention_debates
@@ -500,8 +515,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = A gun in every hand
-		text = gun_in_every_hand
+		id = a_gun_in_every_hand
 		icon = GFX_goal_generic_military_sphere
 		cost = 10
 		prerequisite = {
@@ -516,7 +530,7 @@ focus_tree = {
 		icon = GFX_goal_continuous_increase_nu
 		cost = 10
 		prerequisite = {
-			focus = A gun in every hand
+			focus = a_gun_in_every_hand
 		}
 		x = 26
 		y = 3
